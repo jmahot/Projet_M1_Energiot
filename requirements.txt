@@ -1,0 +1,11 @@
+streamlit
+ydata-profiling
+protobuf
+pandas
+numpy
+mysql-connector-python
+
+# Version python : 3.10.2
+# C:\Users\Julie\AppData\Local\Programs\Python\Python310\python.exe -m venv venv
+# .\venv\Scripts\activate 
+# pip install -r requirements.txt
