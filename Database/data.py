@@ -91,7 +91,7 @@ database = {
 }
 
 # Sauvegarde en JSON
-with open("database_energiot.json", "w") as f:
+with open("Database/database_energiot2.json", "w") as f:
     json.dump(database, f, indent=4)
 
 print("Base de données JSON générée avec succès.")

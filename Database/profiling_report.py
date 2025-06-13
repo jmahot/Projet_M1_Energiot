@@ -27,7 +27,7 @@ for table_name in tables:
     profile = ProfileReport(df, title=f"Profiling Report - {table_name}", explorative=True)
 
     # Sauvegarder en HTML
-    profile.to_file(f"Profile_Report/{table_name}_profiling_report.html")
+    profile.to_file(f"Database/Profile_Report/{table_name}_profiling_report.html")
 
 print("Tous les rapports ont été générés.")
 conn.close()
