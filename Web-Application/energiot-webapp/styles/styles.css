@@ -1,0 +1,238 @@
+body {
+  margin: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: #f4f6f8;
+  color: #333;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 2rem;
+  background-color: #ffffff;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.logo {
+  font-weight: bold;
+  font-size: 1.5rem;
+  color: #18746f;
+}
+
+.logo span {
+  color: #333;
+  font-weight: normal;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 1.5rem;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #444;
+  font-weight: 500;
+}
+
+main {
+  padding: 2em;
+}
+
+.dashboard {
+  background-color: #ffffff;
+  padding: 1.5rem;
+  border-radius: 10px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+}
+
+.report-box {
+  width: 100%;
+  height: 600px;
+  border-radius: 6px;
+  overflow: hidden;
+  margin-top: 1rem;
+  background: #fff;
+}
+
+footer {
+  text-align: center;
+  padding: 1rem;
+  background-color: #ffffff;
+  color: #888;
+  margin-top: 2rem;
+  font-size: 0.9rem;
+}
+
+iframe {
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+ul {
+  padding-left: 1.2rem;
+}
+
+.profile-container {
+  max-width: 800px;
+  margin: 2rem auto;
+  padding: 1.5rem;
+  background-color: #ffffff;
+  border-radius: 10px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+}
+
+.profile-container h3 {
+  margin-top: 0;
+  font-size: 1.8rem;
+  color: #18746f;
+}
+
+.profile-container p {
+  margin: 0.5rem 0;
+}
+
+.profile-container ul {
+  padding-left: 1.5rem;
+  margin-top: 1rem;
+}
+
+.back-button {
+  margin-top: 2rem;
+  padding: 0.6rem 1.2rem;
+  background-color: #007acc;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.back-button:hover {
+  background-color: #005fa3;
+}
+
+.status-on {
+  color: green;
+  font-weight: bold;
+}
+
+.status-off {
+  color: red;
+  font-weight: bold;
+}
+
+.presentation-container {
+  display: flex;
+  height: 100vh;
+}
+
+.presentation-panel {
+  flex: 1;
+  padding: 2rem;
+  overflow-y: auto;
+  box-sizing: border-box;
+}
+
+.dev-panel {
+  background-color: #f0f2f5;
+  border-right: 2px solid #ddd;
+}
+
+.client-panel {
+  background-color: #ffffff;
+}
+
+.panel-header {
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+  color: #18746f;
+}
+
+.client-preview {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 90%;
+  text-align: center;
+}
+
+.client-preview h2 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+  color: #18746f;
+}
+
+.client-preview p {
+  font-size: 1.1rem;
+  color: #555;
+  max-width: 600px;
+}
+
+
+/* Login section styling */
+.login-section {
+  max-width: 350px;
+  margin: 2rem auto;
+  background: #ffffff;
+  padding: 2rem;
+  border-radius: 10px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+  text-align: left;
+}
+
+.login-section h2 {
+  color: #18746f;
+  margin-bottom: 1rem;
+  font-weight: 600;
+  font-size: 1.6rem;
+}
+
+.login-section label {
+  display: block;
+  margin: 0.6rem 0 0.3rem 0;
+  font-weight: 500;
+  color: #444;
+}
+
+.login-section input[type="text"],
+.login-section input[type="password"] {
+  width: 100%;
+  padding: 0.5rem 0.6rem;
+  font-size: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-sizing: border-box;
+  transition: border-color 0.3s ease;
+}
+
+.login-section input[type="text"]:focus,
+.login-section input[type="password"]:focus {
+  border-color: #18746f;
+  outline: none;
+}
+
+.login-section button {
+  margin-top: 1.5rem;
+  width: 100%;
+  background-color: #18746f;
+  color: white;
+  border: none;
+  padding: 0.7rem 1rem;
+  font-size: 1.1rem;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.login-section button:hover {
+  background-color: #145c56;
+}
+
+#login-error {
+  margin-top: 1rem;
+  font-weight: 600;
+  color: #d93025; /* Google red */
+}

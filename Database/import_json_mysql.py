@@ -49,7 +49,7 @@ CREATE TABLE IF NOT EXISTS events (
 """)
 
 # Charger le fichier JSON
-with open("database_energiot.json") as f:
+with open("Database/database_energiot.json") as f:
     data = json.load(f)
 
 # Insérer entreprises

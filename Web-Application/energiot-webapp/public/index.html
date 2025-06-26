@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Energiot | Presentation Mode</title>
+  <link rel="stylesheet" href="../styles/styles.css" />
+</head>
+<body>
+  <div class="presentation-container">
+    <!-- Dev side -->
+    <div class="presentation-panel dev-panel">
+      <h1 class="panel-header">Dev Control Panel (Demo Only)</h1>
+      <p style="margin-bottom:1rem;">Select an entreprise for testing purposes:</p>
+      <div id="entreprise-selection" class="entreprise-selection"></div>
+    </div>
+
+    <!-- Client side -->
+    <div class="presentation-panel client-panel">
+    <h1 class="panel-header">Client Dashboard Preview</h1>
+
+    <div id="login-section" class="login-section">
+        <h2>Client Login</h2>
+        <form id="login-form">
+        <label for="username">Username:</label><br />
+        <input type="text" id="username" name="username" required /><br />
+        <label for="password">Password:</label><br />
+        <input type="password" id="password" name="password" required /><br />
+        <button type="submit">Login</button>
+        </form>
+        <p id="login-error" style="color: red; display:none;">Invalid credentials, try again.</p>
+    </div>
+
+
+    <div id="client-preview" style="display:none;">
+    <h2>Welcome to Energiot Smart Lighting</h2>
+    <p>This is the dashboard your enterprise would access to monitor lighting optimization, real-time savings, and manage smart camera devices.</p>
+    <button id="logout-btn">Déconnexion</button>
+    </div>
+
+    </div>
+
+  </div>
+
+  <script src="../scripts/selection.js"></script>
+  <script src="../scripts/login.js"></script>
+</body>
+</html>

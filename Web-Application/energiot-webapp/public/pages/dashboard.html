@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Energiot Project</title>
+  <link rel="stylesheet" href="../../styles/styles.css" />
+  <!-- Power BI JS SDK -->
+  <script src="https://cdn.jsdelivr.net/npm/powerbi-client@2.19.0/dist/powerbi.min.js"></script>
+</head>
+<body>
+  <header>
+    <div class="logo">Energiot <span>for EFREI</span></div>
+    <nav>
+      <ul>
+        <li><a href="dashboard.html">Dashboard</a></li>
+        <li><a href="cameras.html">Cameras</a></li>
+        <li><a href="reports.html">Reports</a></li>
+        <li><a href="../index.html" onclick="localStorage.clear()">Change Entreprise</a></li>
+      </ul>
+</nav>
+
+  </header>
+
+  <main>
+      <section id="dashboard-container">
+        <h2>Dashboard</h2>
+        <iframe 
+          id="powerbi-frame"
+          width="100%" 
+          height="600" 
+          src="https://app.powerbi.com/reportEmbed?reportId=0ec565bb-ff2c-40b8-b323-04871313555e&autoAuth=true&ctid=413600cf-bd4e-4c7c-8a61-69e73cddf731" 
+          frameborder="0" 
+          allowFullScreen="true">
+        </iframe>
+        <iframe 
+          id="powerbi-frame"
+          width="100%" 
+          height="600" 
+          src="https://app.powerbi.com/view?r=eyJrIjoiYTQ5ZWU5YjMtMmI4OC00YjA3LTg5YmItYjcxMWM3OTY4YzAwIiwidCI6IjQxMzYwMGNmLWJkNGUtNGM3Yy04YTYxLTY5ZTczY2RkZjczMSIsImMiOjh9" 
+          frameborder="0" 
+          allowFullScreen="true">
+        </iframe>
+      </section>
+      
+    </main>
+
+  <footer>
+    <p>&copy; 2025 Energiot. All rights reserved.</p>
+  </footer>
+
+  <script src="../scripts/">
+  </script>
+</body>
+</html>

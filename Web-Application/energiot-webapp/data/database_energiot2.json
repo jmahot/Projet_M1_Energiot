@@ -1,0 +1,6135 @@
+{
+    "entreprises": [
+        {
+            "id_entreprise": 1,
+            "nom_entreprise": "Entreprise_A",
+            "prix_kwh": 0.2047
+        },
+        {
+            "id_entreprise": 2,
+            "nom_entreprise": "Entreprise_B",
+            "prix_kwh": 0.1947
+        },
+        {
+            "id_entreprise": 3,
+            "nom_entreprise": "Entreprise_C",
+            "prix_kwh": 0.1838
+        }
+    ],
+    "localisations": [
+        {
+            "id_localisation": 1,
+            "numero_salle": 101,
+            "type_salle": "Open space",
+            "etage": 3,
+            "id_entreprise": 3
+        },
+        {
+            "id_localisation": 2,
+            "numero_salle": 102,
+            "type_salle": "Open space",
+            "etage": 0,
+            "id_entreprise": 2
+        },
+        {
+            "id_localisation": 3,
+            "numero_salle": 103,
+            "type_salle": "Amphi",
+            "etage": 0,
+            "id_entreprise": 1
+        },
+        {
+            "id_localisation": 4,
+            "numero_salle": 104,
+            "type_salle": "Bureau",
+            "etage": 0,
+            "id_entreprise": 1
+        },
+        {
+            "id_localisation": 5,
+            "numero_salle": 105,
+            "type_salle": "Open space",
+            "etage": 0,
+            "id_entreprise": 2
+        },
+        {
+            "id_localisation": 6,
+            "numero_salle": 106,
+            "type_salle": "Open space",
+            "etage": 2,
+            "id_entreprise": 2
+        },
+        {
+            "id_localisation": 7,
+            "numero_salle": 107,
+            "type_salle": "Salle de cours",
+            "etage": 2,
+            "id_entreprise": 3
+        },
+        {
+            "id_localisation": 8,
+            "numero_salle": 108,
+            "type_salle": "Amphi",
+            "etage": 2,
+            "id_entreprise": 2
+        },
+        {
+            "id_localisation": 9,
+            "numero_salle": 109,
+            "type_salle": "Salle de r\u00e9union",
+            "etage": 3,
+            "id_entreprise": 2
+        },
+        {
+            "id_localisation": 10,
+            "numero_salle": 110,
+            "type_salle": "Amphi",
+            "etage": 3,
+            "id_entreprise": 3
+        }
+    ],
+    "appareils": [
+        {
+            "id_appareil": "CAM001",
+            "id_localisation": 4
+        },
+        {
+            "id_appareil": "CAM002",
+            "id_localisation": 3
+        },
+        {
+            "id_appareil": "CAM003",
+            "id_localisation": 1
+        },
+        {
+            "id_appareil": "CAM004",
+            "id_localisation": 1
+        },
+        {
+            "id_appareil": "CAM005",
+            "id_localisation": 3
+        },
+        {
+            "id_appareil": "CAM006",
+            "id_localisation": 2
+        },
+        {
+            "id_appareil": "CAM007",
+            "id_localisation": 4
+        },
+        {
+            "id_appareil": "CAM008",
+            "id_localisation": 10
+        },
+        {
+            "id_appareil": "CAM009",
+            "id_localisation": 9
+        },
+        {
+            "id_appareil": "CAM010",
+            "id_localisation": 4
+        }
+    ],
+    "events": [
+        {
+            "id_event": 1,
+            "id_appareil": "CAM001",
+            "event": "ON",
+            "date_complete": "2025-06-01 18:41:20"
+        },
+        {
+            "id_event": 2,
+            "id_appareil": "CAM001",
+            "event": "OFF",
+            "date_complete": "2025-06-01 19:02:20"
+        },
+        {
+            "id_event": 3,
+            "id_appareil": "CAM001",
+            "event": "ON",
+            "date_complete": "2025-06-01 19:33:20"
+        },
+        {
+            "id_event": 4,
+            "id_appareil": "CAM006",
+            "event": "ON",
+            "date_complete": "2025-06-01 19:46:20"
+        },
+        {
+            "id_event": 5,
+            "id_appareil": "CAM002",
+            "event": "ON",
+            "date_complete": "2025-06-01 20:03:20"
+        },
+        {
+            "id_event": 6,
+            "id_appareil": "CAM008",
+            "event": "ON",
+            "date_complete": "2025-06-01 20:16:20"
+        },
+        {
+            "id_event": 7,
+            "id_appareil": "CAM003",
+            "event": "ON",
+            "date_complete": "2025-06-01 20:25:20"
+        },
+        {
+            "id_event": 8,
+            "id_appareil": "CAM003",
+            "event": "OFF",
+            "date_complete": "2025-06-01 20:48:20"
+        },
+        {
+            "id_event": 9,
+            "id_appareil": "CAM005",
+            "event": "ON",
+            "date_complete": "2025-06-01 21:15:20"
+        },
+        {
+            "id_event": 10,
+            "id_appareil": "CAM007",
+            "event": "ON",
+            "date_complete": "2025-06-01 21:17:20"
+        },
+        {
+            "id_event": 11,
+            "id_appareil": "CAM006",
+            "event": "OFF",
+            "date_complete": "2025-06-01 21:25:20"
+        },
+        {
+            "id_event": 12,
+            "id_appareil": "CAM008",
+            "event": "OFF",
+            "date_complete": "2025-06-01 21:55:20"
+        },
+        {
+            "id_event": 13,
+            "id_appareil": "CAM002",
+            "event": "OFF",
+            "date_complete": "2025-06-01 22:17:20"
+        },
+        {
+            "id_event": 14,
+            "id_appareil": "CAM010",
+            "event": "ON",
+            "date_complete": "2025-06-01 22:36:20"
+        },
+        {
+            "id_event": 15,
+            "id_appareil": "CAM003",
+            "event": "ON",
+            "date_complete": "2025-06-01 22:58:20"
+        },
+        {
+            "id_event": 16,
+            "id_appareil": "CAM004",
+            "event": "ON",
+            "date_complete": "2025-06-01 23:23:20"
+        },
+        {
+            "id_event": 17,
+            "id_appareil": "CAM002",
+            "event": "ON",
+            "date_complete": "2025-06-01 23:43:20"
+        },
+        {
+            "id_event": 18,
+            "id_appareil": "CAM009",
+            "event": "ON",
+            "date_complete": "2025-06-01 23:53:20"
+        },
+        {
+            "id_event": 19,
+            "id_appareil": "CAM009",
+            "event": "OFF",
+            "date_complete": "2025-06-02 13:22:31"
+        },
+        {
+            "id_event": 20,
+            "id_appareil": "CAM004",
+            "event": "OFF",
+            "date_complete": "2025-06-02 15:41:15"
+        },
+        {
+            "id_event": 21,
+            "id_appareil": "CAM003",
+            "event": "OFF",
+            "date_complete": "2025-06-02 16:09:15"
+        },
+        {
+            "id_event": 22,
+            "id_appareil": "CAM010",
+            "event": "OFF",
+            "date_complete": "2025-06-02 16:25:15"
+        },
+        {
+            "id_event": 23,
+            "id_appareil": "CAM007",
+            "event": "OFF",
+            "date_complete": "2025-06-02 16:34:15"
+        },
+        {
+            "id_event": 24,
+            "id_appareil": "CAM004",
+            "event": "ON",
+            "date_complete": "2025-06-02 16:40:15"
+        },
+        {
+            "id_event": 25,
+            "id_appareil": "CAM008",
+            "event": "ON",
+            "date_complete": "2025-06-02 16:53:11"
+        },
+        {
+            "id_event": 26,
+            "id_appareil": "CAM001",
+            "event": "OFF",
+            "date_complete": "2025-06-02 17:09:11"
+        },
+        {
+            "id_event": 27,
+            "id_appareil": "CAM010",
+            "event": "ON",
+            "date_complete": "2025-06-02 17:19:11"
+        },
+        {
+            "id_event": 28,
+            "id_appareil": "CAM005",
+            "event": "OFF",
+            "date_complete": "2025-06-02 17:50:11"
+        },
+        {
+            "id_event": 29,
+            "id_appareil": "CAM003",
+            "event": "ON",
+            "date_complete": "2025-06-02 18:16:11"
+        },
+        {
+            "id_event": 30,
+            "id_appareil": "CAM003",
+            "event": "OFF",
+            "date_complete": "2025-06-02 18:31:11"
+        },
+        {
+            "id_event": 31,
+            "id_appareil": "CAM001",
+            "event": "ON",
+            "date_complete": "2025-06-02 18:52:11"
+        },
+        {
+            "id_event": 32,
+            "id_appareil": "CAM010",
+            "event": "OFF",
+            "date_complete": "2025-06-02 19:11:11"
+        },
+        {
+            "id_event": 33,
+            "id_appareil": "CAM008",
+            "event": "OFF",
+            "date_complete": "2025-06-02 19:24:11"
+        },
+        {
+            "id_event": 34,
+            "id_appareil": "CAM004",
+            "event": "OFF",
+            "date_complete": "2025-06-02 19:30:11"
+        },
+        {
+            "id_event": 35,
+            "id_appareil": "CAM008",
+            "event": "ON",
+            "date_complete": "2025-06-02 19:38:11"
+        },
+        {
+            "id_event": 36,
+            "id_appareil": "CAM005",
+            "event": "ON",
+            "date_complete": "2025-06-02 19:52:11"
+        },
+        {
+            "id_event": 37,
+            "id_appareil": "CAM008",
+            "event": "OFF",
+            "date_complete": "2025-06-02 20:02:11"
+        },
+        {
+            "id_event": 38,
+            "id_appareil": "CAM005",
+            "event": "OFF",
+            "date_complete": "2025-06-02 20:18:11"
+        },
+        {
+            "id_event": 39,
+            "id_appareil": "CAM010",
+            "event": "ON",
+            "date_complete": "2025-06-02 20:22:11"
+        },
+        {
+            "id_event": 40,
+            "id_appareil": "CAM004",
+            "event": "ON",
+            "date_complete": "2025-06-02 20:28:11"
+        },
+        {
+            "id_event": 41,
+            "id_appareil": "CAM009",
+            "event": "ON",
+            "date_complete": "2025-06-02 20:30:11"
+        },
+        {
+            "id_event": 42,
+            "id_appareil": "CAM008",
+            "event": "ON",
+            "date_complete": "2025-06-02 20:55:11"
+        },
+        {
+            "id_event": 43,
+            "id_appareil": "CAM009",
+            "event": "OFF",
+            "date_complete": "2025-06-02 21:20:11"
+        },
+        {
+            "id_event": 44,
+            "id_appareil": "CAM006",
+            "event": "ON",
+            "date_complete": "2025-06-02 21:26:11"
+        },
+        {
+            "id_event": 45,
+            "id_appareil": "CAM007",
+            "event": "ON",
+            "date_complete": "2025-06-02 21:29:11"
+        },
+        {
+            "id_event": 46,
+            "id_appareil": "CAM007",
+            "event": "OFF",
+            "date_complete": "2025-06-02 21:41:11"
+        },
+        {
+            "id_event": 47,
+            "id_appareil": "CAM004",
+            "event": "OFF",
+            "date_complete": "2025-06-02 21:55:11"
+        },
+        {
+            "id_event": 48,
+            "id_appareil": "CAM006",
+            "event": "OFF",
+            "date_complete": "2025-06-02 22:22:11"
+        },
+        {
+            "id_event": 49,
+            "id_appareil": "CAM002",
+            "event": "OFF",
+            "date_complete": "2025-06-02 22:43:11"
+        },
+        {
+            "id_event": 50,
+            "id_appareil": "CAM006",
+            "event": "ON",
+            "date_complete": "2025-06-02 23:01:11"
+        },
+        {
+            "id_event": 51,
+            "id_appareil": "CAM005",
+            "event": "ON",
+            "date_complete": "2025-06-02 23:24:11"
+        },
+        {
+            "id_event": 52,
+            "id_appareil": "CAM005",
+            "event": "OFF",
+            "date_complete": "2025-06-02 23:29:11"
+        },
+        {
+            "id_event": 53,
+            "id_appareil": "CAM007",
+            "event": "ON",
+            "date_complete": "2025-06-02 23:56:11"
+        },
+        {
+            "id_event": 54,
+            "id_appareil": "CAM010",
+            "event": "OFF",
+            "date_complete": "2025-06-03 11:41:00"
+        },
+        {
+            "id_event": 55,
+            "id_appareil": "CAM001",
+            "event": "OFF",
+            "date_complete": "2025-06-03 15:18:45"
+        },
+        {
+            "id_event": 56,
+            "id_appareil": "CAM002",
+            "event": "ON",
+            "date_complete": "2025-06-03 15:31:45"
+        },
+        {
+            "id_event": 57,
+            "id_appareil": "CAM004",
+            "event": "ON",
+            "date_complete": "2025-06-03 19:41:07"
+        },
+        {
+            "id_event": 58,
+            "id_appareil": "CAM006",
+            "event": "OFF",
+            "date_complete": "2025-06-03 19:56:07"
+        },
+        {
+            "id_event": 59,
+            "id_appareil": "CAM007",
+            "event": "OFF",
+            "date_complete": "2025-06-03 20:12:07"
+        },
+        {
+            "id_event": 60,
+            "id_appareil": "CAM008",
+            "event": "OFF",
+            "date_complete": "2025-06-03 20:15:07"
+        },
+        {
+            "id_event": 61,
+            "id_appareil": "CAM007",
+            "event": "ON",
+            "date_complete": "2025-06-03 20:22:07"
+        },
+        {
+            "id_event": 62,
+            "id_appareil": "CAM008",
+            "event": "ON",
+            "date_complete": "2025-06-03 20:24:07"
+        },
+        {
+            "id_event": 63,
+            "id_appareil": "CAM005",
+            "event": "ON",
+            "date_complete": "2025-06-03 20:45:07"
+        },
+        {
+            "id_event": 64,
+            "id_appareil": "CAM005",
+            "event": "OFF",
+            "date_complete": "2025-06-03 21:16:07"
+        },
+        {
+            "id_event": 65,
+            "id_appareil": "CAM001",
+            "event": "ON",
+            "date_complete": "2025-06-03 21:45:07"
+        },
+        {
+            "id_event": 66,
+            "id_appareil": "CAM001",
+            "event": "OFF",
+            "date_complete": "2025-06-03 22:06:07"
+        },
+        {
+            "id_event": 67,
+            "id_appareil": "CAM002",
+            "event": "OFF",
+            "date_complete": "2025-06-03 22:32:07"
+        },
+        {
+            "id_event": 68,
+            "id_appareil": "CAM005",
+            "event": "ON",
+            "date_complete": "2025-06-03 23:02:07"
+        },
+        {
+            "id_event": 69,
+            "id_appareil": "CAM008",
+            "event": "OFF",
+            "date_complete": "2025-06-03 23:15:07"
+        },
+        {
+            "id_event": 70,
+            "id_appareil": "CAM009",
+            "event": "ON",
+            "date_complete": "2025-06-03 23:32:07"
+        },
+        {
+            "id_event": 71,
+            "id_appareil": "CAM002",
+            "event": "ON",
+            "date_complete": "2025-06-04 14:26:47"
+        },
+        {
+            "id_event": 72,
+            "id_appareil": "CAM009",
+            "event": "OFF",
+            "date_complete": "2025-06-04 15:16:33"
+        },
+        {
+            "id_event": 73,
+            "id_appareil": "CAM006",
+            "event": "ON",
+            "date_complete": "2025-06-04 15:25:33"
+        },
+        {
+            "id_event": 74,
+            "id_appareil": "CAM009",
+            "event": "ON",
+            "date_complete": "2025-06-04 15:42:33"
+        },
+        {
+            "id_event": 75,
+            "id_appareil": "CAM005",
+            "event": "OFF",
+            "date_complete": "2025-06-04 19:09:31"
+        },
+        {
+            "id_event": 76,
+            "id_appareil": "CAM010",
+            "event": "ON",
+            "date_complete": "2025-06-04 19:26:31"
+        },
+        {
+            "id_event": 77,
+            "id_appareil": "CAM007",
+            "event": "OFF",
+            "date_complete": "2025-06-04 19:41:31"
+        },
+        {
+            "id_event": 78,
+            "id_appareil": "CAM004",
+            "event": "OFF",
+            "date_complete": "2025-06-04 19:53:31"
+        },
+        {
+            "id_event": 79,
+            "id_appareil": "CAM009",
+            "event": "OFF",
+            "date_complete": "2025-06-04 20:23:31"
+        },
+        {
+            "id_event": 80,
+            "id_appareil": "CAM007",
+            "event": "ON",
+            "date_complete": "2025-06-04 20:40:31"
+        },
+        {
+            "id_event": 81,
+            "id_appareil": "CAM009",
+            "event": "ON",
+            "date_complete": "2025-06-04 20:59:31"
+        },
+        {
+            "id_event": 82,
+            "id_appareil": "CAM005",
+            "event": "ON",
+            "date_complete": "2025-06-04 21:05:31"
+        },
+        {
+            "id_event": 83,
+            "id_appareil": "CAM002",
+            "event": "OFF",
+            "date_complete": "2025-06-04 21:13:31"
+        },
+        {
+            "id_event": 84,
+            "id_appareil": "CAM001",
+            "event": "ON",
+            "date_complete": "2025-06-04 21:19:31"
+        },
+        {
+            "id_event": 85,
+            "id_appareil": "CAM006",
+            "event": "OFF",
+            "date_complete": "2025-06-04 21:39:31"
+        },
+        {
+            "id_event": 86,
+            "id_appareil": "CAM003",
+            "event": "ON",
+            "date_complete": "2025-06-04 21:48:31"
+        },
+        {
+            "id_event": 87,
+            "id_appareil": "CAM010",
+            "event": "OFF",
+            "date_complete": "2025-06-04 21:51:31"
+        },
+        {
+            "id_event": 88,
+            "id_appareil": "CAM003",
+            "event": "OFF",
+            "date_complete": "2025-06-04 22:19:31"
+        },
+        {
+            "id_event": 89,
+            "id_appareil": "CAM009",
+            "event": "OFF",
+            "date_complete": "2025-06-04 22:34:31"
+        },
+        {
+            "id_event": 90,
+            "id_appareil": "CAM008",
+            "event": "ON",
+            "date_complete": "2025-06-04 23:01:31"
+        },
+        {
+            "id_event": 91,
+            "id_appareil": "CAM003",
+            "event": "ON",
+            "date_complete": "2025-06-04 23:26:31"
+        },
+        {
+            "id_event": 92,
+            "id_appareil": "CAM001",
+            "event": "OFF",
+            "date_complete": "2025-06-04 23:55:31"
+        },
+        {
+            "id_event": 93,
+            "id_appareil": "CAM007",
+            "event": "OFF",
+            "date_complete": "2025-06-05 08:08:15"
+        },
+        {
+            "id_event": 94,
+            "id_appareil": "CAM001",
+            "event": "ON",
+            "date_complete": "2025-06-05 11:07:32"
+        },
+        {
+            "id_event": 95,
+            "id_appareil": "CAM005",
+            "event": "OFF",
+            "date_complete": "2025-06-05 15:17:28"
+        },
+        {
+            "id_event": 96,
+            "id_appareil": "CAM008",
+            "event": "OFF",
+            "date_complete": "2025-06-05 15:40:28"
+        },
+        {
+            "id_event": 97,
+            "id_appareil": "CAM008",
+            "event": "ON",
+            "date_complete": "2025-06-05 15:52:28"
+        },
+        {
+            "id_event": 98,
+            "id_appareil": "CAM007",
+            "event": "ON",
+            "date_complete": "2025-06-05 16:33:22"
+        },
+        {
+            "id_event": 99,
+            "id_appareil": "CAM004",
+            "event": "ON",
+            "date_complete": "2025-06-05 16:56:06"
+        },
+        {
+            "id_event": 100,
+            "id_appareil": "CAM005",
+            "event": "ON",
+            "date_complete": "2025-06-05 17:17:06"
+        },
+        {
+            "id_event": 101,
+            "id_appareil": "CAM007",
+            "event": "OFF",
+            "date_complete": "2025-06-05 17:28:06"
+        },
+        {
+            "id_event": 102,
+            "id_appareil": "CAM004",
+            "event": "OFF",
+            "date_complete": "2025-06-05 17:52:06"
+        },
+        {
+            "id_event": 103,
+            "id_appareil": "CAM010",
+            "event": "ON",
+            "date_complete": "2025-06-05 18:02:06"
+        },
+        {
+            "id_event": 104,
+            "id_appareil": "CAM001",
+            "event": "OFF",
+            "date_complete": "2025-06-05 19:56:57"
+        },
+        {
+            "id_event": 105,
+            "id_appareil": "CAM008",
+            "event": "OFF",
+            "date_complete": "2025-06-05 20:08:57"
+        },
+        {
+            "id_event": 106,
+            "id_appareil": "CAM001",
+            "event": "ON",
+            "date_complete": "2025-06-05 20:22:57"
+        },
+        {
+            "id_event": 107,
+            "id_appareil": "CAM009",
+            "event": "ON",
+            "date_complete": "2025-06-05 20:38:57"
+        },
+        {
+            "id_event": 108,
+            "id_appareil": "CAM004",
+            "event": "ON",
+            "date_complete": "2025-06-05 20:42:57"
+        },
+        {
+            "id_event": 109,
+            "id_appareil": "CAM002",
+            "event": "ON",
+            "date_complete": "2025-06-05 20:57:57"
+        },
+        {
+            "id_event": 110,
+            "id_appareil": "CAM003",
+            "event": "OFF",
+            "date_complete": "2025-06-05 21:20:57"
+        },
+        {
+            "id_event": 111,
+            "id_appareil": "CAM010",
+            "event": "OFF",
+            "date_complete": "2025-06-05 21:36:57"
+        },
+        {
+            "id_event": 112,
+            "id_appareil": "CAM007",
+            "event": "ON",
+            "date_complete": "2025-06-05 21:59:57"
+        },
+        {
+            "id_event": 113,
+            "id_appareil": "CAM001",
+            "event": "OFF",
+            "date_complete": "2025-06-05 22:09:57"
+        },
+        {
+            "id_event": 114,
+            "id_appareil": "CAM009",
+            "event": "OFF",
+            "date_complete": "2025-06-05 22:30:57"
+        },
+        {
+            "id_event": 115,
+            "id_appareil": "CAM002",
+            "event": "OFF",
+            "date_complete": "2025-06-05 22:47:57"
+        },
+        {
+            "id_event": 116,
+            "id_appareil": "CAM008",
+            "event": "ON",
+            "date_complete": "2025-06-05 23:14:57"
+        },
+        {
+            "id_event": 117,
+            "id_appareil": "CAM008",
+            "event": "OFF",
+            "date_complete": "2025-06-05 23:26:57"
+        },
+        {
+            "id_event": 118,
+            "id_appareil": "CAM001",
+            "event": "ON",
+            "date_complete": "2025-06-05 23:37:57"
+        },
+        {
+            "id_event": 119,
+            "id_appareil": "CAM004",
+            "event": "OFF",
+            "date_complete": "2025-06-06 00:00:57"
+        },
+        {
+            "id_event": 120,
+            "id_appareil": "CAM007",
+            "event": "OFF",
+            "date_complete": "2025-06-06 17:44:53"
+        },
+        {
+            "id_event": 121,
+            "id_appareil": "CAM009",
+            "event": "ON",
+            "date_complete": "2025-06-06 18:53:09"
+        },
+        {
+            "id_event": 122,
+            "id_appareil": "CAM001",
+            "event": "OFF",
+            "date_complete": "2025-06-06 19:20:09"
+        },
+        {
+            "id_event": 123,
+            "id_appareil": "CAM007",
+            "event": "ON",
+            "date_complete": "2025-06-06 19:37:09"
+        },
+        {
+            "id_event": 124,
+            "id_appareil": "CAM010",
+            "event": "ON",
+            "date_complete": "2025-06-06 19:43:09"
+        },
+        {
+            "id_event": 125,
+            "id_appareil": "CAM010",
+            "event": "OFF",
+            "date_complete": "2025-06-06 19:50:09"
+        },
+        {
+            "id_event": 126,
+            "id_appareil": "CAM008",
+            "event": "ON",
+            "date_complete": "2025-06-06 20:17:09"
+        },
+        {
+            "id_event": 127,
+            "id_appareil": "CAM009",
+            "event": "OFF",
+            "date_complete": "2025-06-06 20:42:09"
+        },
+        {
+            "id_event": 128,
+            "id_appareil": "CAM004",
+            "event": "ON",
+            "date_complete": "2025-06-06 20:54:09"
+        },
+        {
+            "id_event": 129,
+            "id_appareil": "CAM003",
+            "event": "ON",
+            "date_complete": "2025-06-06 21:12:09"
+        },
+        {
+            "id_event": 130,
+            "id_appareil": "CAM005",
+            "event": "OFF",
+            "date_complete": "2025-06-06 21:35:09"
+        },
+        {
+            "id_event": 131,
+            "id_appareil": "CAM002",
+            "event": "ON",
+            "date_complete": "2025-06-06 21:39:09"
+        },
+        {
+            "id_event": 132,
+            "id_appareil": "CAM004",
+            "event": "OFF",
+            "date_complete": "2025-06-06 22:08:09"
+        },
+        {
+            "id_event": 133,
+            "id_appareil": "CAM004",
+            "event": "ON",
+            "date_complete": "2025-06-06 22:35:09"
+        },
+        {
+            "id_event": 134,
+            "id_appareil": "CAM009",
+            "event": "ON",
+            "date_complete": "2025-06-06 22:45:09"
+        },
+        {
+            "id_event": 135,
+            "id_appareil": "CAM001",
+            "event": "ON",
+            "date_complete": "2025-06-06 23:07:09"
+        },
+        {
+            "id_event": 136,
+            "id_appareil": "CAM002",
+            "event": "OFF",
+            "date_complete": "2025-06-06 23:37:09"
+        },
+        {
+            "id_event": 137,
+            "id_appareil": "CAM010",
+            "event": "ON",
+            "date_complete": "2025-06-06 23:56:09"
+        },
+        {
+            "id_event": 138,
+            "id_appareil": "CAM007",
+            "event": "OFF",
+            "date_complete": "2025-06-07 11:43:24"
+        },
+        {
+            "id_event": 139,
+            "id_appareil": "CAM004",
+            "event": "OFF",
+            "date_complete": "2025-06-07 17:55:21"
+        },
+        {
+            "id_event": 140,
+            "id_appareil": "CAM001",
+            "event": "OFF",
+            "date_complete": "2025-06-07 18:21:21"
+        },
+        {
+            "id_event": 141,
+            "id_appareil": "CAM004",
+            "event": "ON",
+            "date_complete": "2025-06-07 18:37:21"
+        },
+        {
+            "id_event": 142,
+            "id_appareil": "CAM007",
+            "event": "ON",
+            "date_complete": "2025-06-07 18:51:21"
+        },
+        {
+            "id_event": 143,
+            "id_appareil": "CAM003",
+            "event": "OFF",
+            "date_complete": "2025-06-07 19:14:21"
+        },
+        {
+            "id_event": 144,
+            "id_appareil": "CAM009",
+            "event": "OFF",
+            "date_complete": "2025-06-07 19:34:21"
+        },
+        {
+            "id_event": 145,
+            "id_appareil": "CAM010",
+            "event": "OFF",
+            "date_complete": "2025-06-07 19:57:21"
+        },
+        {
+            "id_event": 146,
+            "id_appareil": "CAM008",
+            "event": "OFF",
+            "date_complete": "2025-06-07 20:21:21"
+        },
+        {
+            "id_event": 147,
+            "id_appareil": "CAM002",
+            "event": "ON",
+            "date_complete": "2025-06-07 20:52:21"
+        },
+        {
+            "id_event": 148,
+            "id_appareil": "CAM001",
+            "event": "ON",
+            "date_complete": "2025-06-07 21:04:21"
+        },
+        {
+            "id_event": 149,
+            "id_appareil": "CAM010",
+            "event": "ON",
+            "date_complete": "2025-06-07 21:25:21"
+        },
+        {
+            "id_event": 150,
+            "id_appareil": "CAM004",
+            "event": "OFF",
+            "date_complete": "2025-06-07 21:40:21"
+        },
+        {
+            "id_event": 151,
+            "id_appareil": "CAM008",
+            "event": "ON",
+            "date_complete": "2025-06-07 22:08:21"
+        },
+        {
+            "id_event": 152,
+            "id_appareil": "CAM003",
+            "event": "ON",
+            "date_complete": "2025-06-07 22:11:21"
+        },
+        {
+            "id_event": 153,
+            "id_appareil": "CAM008",
+            "event": "OFF",
+            "date_complete": "2025-06-07 22:17:21"
+        },
+        {
+            "id_event": 154,
+            "id_appareil": "CAM004",
+            "event": "ON",
+            "date_complete": "2025-06-07 22:35:21"
+        },
+        {
+            "id_event": 155,
+            "id_appareil": "CAM009",
+            "event": "ON",
+            "date_complete": "2025-06-07 22:57:21"
+        },
+        {
+            "id_event": 156,
+            "id_appareil": "CAM008",
+            "event": "ON",
+            "date_complete": "2025-06-07 23:18:21"
+        },
+        {
+            "id_event": 157,
+            "id_appareil": "CAM002",
+            "event": "OFF",
+            "date_complete": "2025-06-07 23:47:21"
+        },
+        {
+            "id_event": 158,
+            "id_appareil": "CAM008",
+            "event": "OFF",
+            "date_complete": "2025-06-08 17:48:48"
+        },
+        {
+            "id_event": 159,
+            "id_appareil": "CAM005",
+            "event": "ON",
+            "date_complete": "2025-06-08 18:11:48"
+        },
+        {
+            "id_event": 160,
+            "id_appareil": "CAM008",
+            "event": "ON",
+            "date_complete": "2025-06-08 18:35:48"
+        },
+        {
+            "id_event": 161,
+            "id_appareil": "CAM001",
+            "event": "OFF",
+            "date_complete": "2025-06-08 19:03:48"
+        },
+        {
+            "id_event": 162,
+            "id_appareil": "CAM007",
+            "event": "OFF",
+            "date_complete": "2025-06-08 19:21:48"
+        },
+        {
+            "id_event": 163,
+            "id_appareil": "CAM002",
+            "event": "ON",
+            "date_complete": "2025-06-08 19:44:48"
+        },
+        {
+            "id_event": 164,
+            "id_appareil": "CAM001",
+            "event": "ON",
+            "date_complete": "2025-06-08 20:04:48"
+        },
+        {
+            "id_event": 165,
+            "id_appareil": "CAM007",
+            "event": "ON",
+            "date_complete": "2025-06-08 20:16:48"
+        },
+        {
+            "id_event": 166,
+            "id_appareil": "CAM002",
+            "event": "OFF",
+            "date_complete": "2025-06-08 20:23:48"
+        },
+        {
+            "id_event": 167,
+            "id_appareil": "CAM010",
+            "event": "OFF",
+            "date_complete": "2025-06-08 20:37:48"
+        },
+        {
+            "id_event": 168,
+            "id_appareil": "CAM001",
+            "event": "OFF",
+            "date_complete": "2025-06-08 21:05:48"
+        },
+        {
+            "id_event": 169,
+            "id_appareil": "CAM009",
+            "event": "OFF",
+            "date_complete": "2025-06-08 21:33:48"
+        },
+        {
+            "id_event": 170,
+            "id_appareil": "CAM009",
+            "event": "ON",
+            "date_complete": "2025-06-08 21:46:48"
+        },
+        {
+            "id_event": 171,
+            "id_appareil": "CAM010",
+            "event": "ON",
+            "date_complete": "2025-06-08 21:54:48"
+        },
+        {
+            "id_event": 172,
+            "id_appareil": "CAM010",
+            "event": "OFF",
+            "date_complete": "2025-06-08 22:23:48"
+        },
+        {
+            "id_event": 173,
+            "id_appareil": "CAM010",
+            "event": "ON",
+            "date_complete": "2025-06-08 22:48:48"
+        },
+        {
+            "id_event": 174,
+            "id_appareil": "CAM010",
+            "event": "OFF",
+            "date_complete": "2025-06-08 22:55:48"
+        },
+        {
+            "id_event": 175,
+            "id_appareil": "CAM009",
+            "event": "OFF",
+            "date_complete": "2025-06-08 23:14:48"
+        },
+        {
+            "id_event": 176,
+            "id_appareil": "CAM009",
+            "event": "ON",
+            "date_complete": "2025-06-08 23:23:48"
+        },
+        {
+            "id_event": 177,
+            "id_appareil": "CAM009",
+            "event": "OFF",
+            "date_complete": "2025-06-08 23:43:48"
+        },
+        {
+            "id_event": 178,
+            "id_appareil": "CAM002",
+            "event": "ON",
+            "date_complete": "2025-06-09 16:05:00"
+        },
+        {
+            "id_event": 179,
+            "id_appareil": "CAM007",
+            "event": "OFF",
+            "date_complete": "2025-06-09 16:14:00"
+        },
+        {
+            "id_event": 180,
+            "id_appareil": "CAM002",
+            "event": "OFF",
+            "date_complete": "2025-06-09 19:46:43"
+        },
+        {
+            "id_event": 181,
+            "id_appareil": "CAM004",
+            "event": "OFF",
+            "date_complete": "2025-06-09 19:58:43"
+        },
+        {
+            "id_event": 182,
+            "id_appareil": "CAM010",
+            "event": "ON",
+            "date_complete": "2025-06-09 20:16:43"
+        },
+        {
+            "id_event": 183,
+            "id_appareil": "CAM005",
+            "event": "OFF",
+            "date_complete": "2025-06-09 20:32:43"
+        },
+        {
+            "id_event": 184,
+            "id_appareil": "CAM010",
+            "event": "OFF",
+            "date_complete": "2025-06-09 20:36:43"
+        },
+        {
+            "id_event": 185,
+            "id_appareil": "CAM003",
+            "event": "OFF",
+            "date_complete": "2025-06-09 20:56:43"
+        },
+        {
+            "id_event": 186,
+            "id_appareil": "CAM006",
+            "event": "ON",
+            "date_complete": "2025-06-09 20:58:43"
+        },
+        {
+            "id_event": 187,
+            "id_appareil": "CAM001",
+            "event": "ON",
+            "date_complete": "2025-06-09 21:27:43"
+        },
+        {
+            "id_event": 188,
+            "id_appareil": "CAM010",
+            "event": "ON",
+            "date_complete": "2025-06-09 21:53:43"
+        },
+        {
+            "id_event": 189,
+            "id_appareil": "CAM001",
+            "event": "OFF",
+            "date_complete": "2025-06-09 22:19:43"
+        },
+        {
+            "id_event": 190,
+            "id_appareil": "CAM001",
+            "event": "ON",
+            "date_complete": "2025-06-09 22:50:43"
+        },
+        {
+            "id_event": 191,
+            "id_appareil": "CAM003",
+            "event": "ON",
+            "date_complete": "2025-06-09 23:07:43"
+        },
+        {
+            "id_event": 192,
+            "id_appareil": "CAM001",
+            "event": "OFF",
+            "date_complete": "2025-06-09 23:18:43"
+        },
+        {
+            "id_event": 193,
+            "id_appareil": "CAM005",
+            "event": "ON",
+            "date_complete": "2025-06-09 23:26:43"
+        },
+        {
+            "id_event": 194,
+            "id_appareil": "CAM010",
+            "event": "OFF",
+            "date_complete": "2025-06-09 23:42:43"
+        },
+        {
+            "id_event": 195,
+            "id_appareil": "CAM004",
+            "event": "ON",
+            "date_complete": "2025-06-09 23:50:43"
+        },
+        {
+            "id_event": 196,
+            "id_appareil": "CAM008",
+            "event": "OFF",
+            "date_complete": "2025-06-10 16:17:37"
+        },
+        {
+            "id_event": 197,
+            "id_appareil": "CAM005",
+            "event": "OFF",
+            "date_complete": "2025-06-10 16:48:37"
+        },
+        {
+            "id_event": 198,
+            "id_appareil": "CAM007",
+            "event": "ON",
+            "date_complete": "2025-06-10 17:08:37"
+        },
+        {
+            "id_event": 199,
+            "id_appareil": "CAM007",
+            "event": "OFF",
+            "date_complete": "2025-06-10 17:27:37"
+        },
+        {
+            "id_event": 200,
+            "id_appareil": "CAM006",
+            "event": "OFF",
+            "date_complete": "2025-06-10 22:38:46"
+        },
+        {
+            "id_event": 201,
+            "id_appareil": "CAM007",
+            "event": "ON",
+            "date_complete": "2025-06-10 23:03:46"
+        },
+        {
+            "id_event": 202,
+            "id_appareil": "CAM009",
+            "event": "ON",
+            "date_complete": "2025-06-10 23:21:46"
+        },
+        {
+            "id_event": 203,
+            "id_appareil": "CAM010",
+            "event": "ON",
+            "date_complete": "2025-06-10 23:39:46"
+        },
+        {
+            "id_event": 204,
+            "id_appareil": "CAM001",
+            "event": "ON",
+            "date_complete": "2025-06-10 23:52:46"
+        },
+        {
+            "id_event": 205,
+            "id_appareil": "CAM001",
+            "event": "OFF",
+            "date_complete": "2025-06-11 14:51:28"
+        },
+        {
+            "id_event": 206,
+            "id_appareil": "CAM007",
+            "event": "OFF",
+            "date_complete": "2025-06-11 19:45:50"
+        },
+        {
+            "id_event": 207,
+            "id_appareil": "CAM008",
+            "event": "ON",
+            "date_complete": "2025-06-11 20:09:50"
+        },
+        {
+            "id_event": 208,
+            "id_appareil": "CAM009",
+            "event": "OFF",
+            "date_complete": "2025-06-11 20:38:50"
+        },
+        {
+            "id_event": 209,
+            "id_appareil": "CAM002",
+            "event": "ON",
+            "date_complete": "2025-06-11 20:52:50"
+        },
+        {
+            "id_event": 210,
+            "id_appareil": "CAM007",
+            "event": "ON",
+            "date_complete": "2025-06-11 21:13:50"
+        },
+        {
+            "id_event": 211,
+            "id_appareil": "CAM002",
+            "event": "OFF",
+            "date_complete": "2025-06-11 21:43:50"
+        },
+        {
+            "id_event": 212,
+            "id_appareil": "CAM002",
+            "event": "ON",
+            "date_complete": "2025-06-11 22:07:50"
+        },
+        {
+            "id_event": 213,
+            "id_appareil": "CAM008",
+            "event": "OFF",
+            "date_complete": "2025-06-11 22:34:50"
+        },
+        {
+            "id_event": 214,
+            "id_appareil": "CAM006",
+            "event": "ON",
+            "date_complete": "2025-06-11 22:54:50"
+        },
+        {
+            "id_event": 215,
+            "id_appareil": "CAM005",
+            "event": "ON",
+            "date_complete": "2025-06-11 23:13:50"
+        },
+        {
+            "id_event": 216,
+            "id_appareil": "CAM004",
+            "event": "OFF",
+            "date_complete": "2025-06-11 23:29:50"
+        },
+        {
+            "id_event": 217,
+            "id_appareil": "CAM008",
+            "event": "ON",
+            "date_complete": "2025-06-11 23:44:50"
+        },
+        {
+            "id_event": 218,
+            "id_appareil": "CAM004",
+            "event": "ON",
+            "date_complete": "2025-06-11 23:55:50"
+        },
+        {
+            "id_event": 219,
+            "id_appareil": "CAM006",
+            "event": "OFF",
+            "date_complete": "2025-06-12 15:05:13"
+        },
+        {
+            "id_event": 220,
+            "id_appareil": "CAM006",
+            "event": "ON",
+            "date_complete": "2025-06-12 17:47:28"
+        },
+        {
+            "id_event": 221,
+            "id_appareil": "CAM008",
+            "event": "OFF",
+            "date_complete": "2025-06-12 17:51:28"
+        },
+        {
+            "id_event": 222,
+            "id_appareil": "CAM005",
+            "event": "OFF",
+            "date_complete": "2025-06-12 18:04:28"
+        },
+        {
+            "id_event": 223,
+            "id_appareil": "CAM003",
+            "event": "OFF",
+            "date_complete": "2025-06-12 18:09:28"
+        },
+        {
+            "id_event": 224,
+            "id_appareil": "CAM004",
+            "event": "OFF",
+            "date_complete": "2025-06-12 22:07:49"
+        },
+        {
+            "id_event": 225,
+            "id_appareil": "CAM005",
+            "event": "ON",
+            "date_complete": "2025-06-12 22:13:49"
+        },
+        {
+            "id_event": 226,
+            "id_appareil": "CAM003",
+            "event": "ON",
+            "date_complete": "2025-06-12 22:18:49"
+        },
+        {
+            "id_event": 227,
+            "id_appareil": "CAM007",
+            "event": "OFF",
+            "date_complete": "2025-06-12 22:49:49"
+        },
+        {
+            "id_event": 228,
+            "id_appareil": "CAM006",
+            "event": "OFF",
+            "date_complete": "2025-06-12 23:14:49"
+        },
+        {
+            "id_event": 229,
+            "id_appareil": "CAM009",
+            "event": "ON",
+            "date_complete": "2025-06-12 23:37:49"
+        },
+        {
+            "id_event": 230,
+            "id_appareil": "CAM010",
+            "event": "OFF",
+            "date_complete": "2025-06-12 23:59:49"
+        },
+        {
+            "id_event": 231,
+            "id_appareil": "CAM006",
+            "event": "ON",
+            "date_complete": "2025-06-13 10:44:50"
+        },
+        {
+            "id_event": 232,
+            "id_appareil": "CAM004",
+            "event": "ON",
+            "date_complete": "2025-06-13 11:06:50"
+        },
+        {
+            "id_event": 233,
+            "id_appareil": "CAM010",
+            "event": "ON",
+            "date_complete": "2025-06-13 11:21:50"
+        },
+        {
+            "id_event": 234,
+            "id_appareil": "CAM010",
+            "event": "OFF",
+            "date_complete": "2025-06-13 17:49:37"
+        },
+        {
+            "id_event": 235,
+            "id_appareil": "CAM003",
+            "event": "OFF",
+            "date_complete": "2025-06-13 19:14:55"
+        },
+        {
+            "id_event": 236,
+            "id_appareil": "CAM004",
+            "event": "OFF",
+            "date_complete": "2025-06-13 19:29:55"
+        },
+        {
+            "id_event": 237,
+            "id_appareil": "CAM004",
+            "event": "ON",
+            "date_complete": "2025-06-13 19:43:55"
+        },
+        {
+            "id_event": 238,
+            "id_appareil": "CAM001",
+            "event": "ON",
+            "date_complete": "2025-06-13 20:09:55"
+        },
+        {
+            "id_event": 239,
+            "id_appareil": "CAM009",
+            "event": "OFF",
+            "date_complete": "2025-06-13 20:12:55"
+        },
+        {
+            "id_event": 240,
+            "id_appareil": "CAM001",
+            "event": "OFF",
+            "date_complete": "2025-06-13 20:21:55"
+        },
+        {
+            "id_event": 241,
+            "id_appareil": "CAM008",
+            "event": "ON",
+            "date_complete": "2025-06-13 20:36:55"
+        },
+        {
+            "id_event": 242,
+            "id_appareil": "CAM006",
+            "event": "OFF",
+            "date_complete": "2025-06-13 20:52:55"
+        },
+        {
+            "id_event": 243,
+            "id_appareil": "CAM009",
+            "event": "ON",
+            "date_complete": "2025-06-13 21:11:55"
+        },
+        {
+            "id_event": 244,
+            "id_appareil": "CAM007",
+            "event": "ON",
+            "date_complete": "2025-06-13 21:32:55"
+        },
+        {
+            "id_event": 245,
+            "id_appareil": "CAM003",
+            "event": "ON",
+            "date_complete": "2025-06-13 22:03:55"
+        },
+        {
+            "id_event": 246,
+            "id_appareil": "CAM002",
+            "event": "OFF",
+            "date_complete": "2025-06-13 22:09:55"
+        },
+        {
+            "id_event": 247,
+            "id_appareil": "CAM006",
+            "event": "ON",
+            "date_complete": "2025-06-13 22:21:55"
+        },
+        {
+            "id_event": 248,
+            "id_appareil": "CAM010",
+            "event": "ON",
+            "date_complete": "2025-06-13 22:32:55"
+        },
+        {
+            "id_event": 249,
+            "id_appareil": "CAM009",
+            "event": "OFF",
+            "date_complete": "2025-06-13 22:37:55"
+        },
+        {
+            "id_event": 250,
+            "id_appareil": "CAM010",
+            "event": "OFF",
+            "date_complete": "2025-06-13 23:05:55"
+        },
+        {
+            "id_event": 251,
+            "id_appareil": "CAM010",
+            "event": "ON",
+            "date_complete": "2025-06-13 23:26:55"
+        },
+        {
+            "id_event": 252,
+            "id_appareil": "CAM007",
+            "event": "OFF",
+            "date_complete": "2025-06-13 23:51:55"
+        },
+        {
+            "id_event": 253,
+            "id_appareil": "CAM009",
+            "event": "ON",
+            "date_complete": "2025-06-14 09:23:46"
+        },
+        {
+            "id_event": 254,
+            "id_appareil": "CAM004",
+            "event": "OFF",
+            "date_complete": "2025-06-14 14:29:43"
+        },
+        {
+            "id_event": 255,
+            "id_appareil": "CAM008",
+            "event": "OFF",
+            "date_complete": "2025-06-14 14:49:43"
+        },
+        {
+            "id_event": 256,
+            "id_appareil": "CAM005",
+            "event": "OFF",
+            "date_complete": "2025-06-14 14:57:43"
+        },
+        {
+            "id_event": 257,
+            "id_appareil": "CAM005",
+            "event": "ON",
+            "date_complete": "2025-06-14 15:19:43"
+        },
+        {
+            "id_event": 258,
+            "id_appareil": "CAM003",
+            "event": "OFF",
+            "date_complete": "2025-06-14 18:55:10"
+        },
+        {
+            "id_event": 259,
+            "id_appareil": "CAM010",
+            "event": "OFF",
+            "date_complete": "2025-06-14 19:02:10"
+        },
+        {
+            "id_event": 260,
+            "id_appareil": "CAM004",
+            "event": "ON",
+            "date_complete": "2025-06-14 19:16:10"
+        },
+        {
+            "id_event": 261,
+            "id_appareil": "CAM001",
+            "event": "ON",
+            "date_complete": "2025-06-14 19:37:10"
+        },
+        {
+            "id_event": 262,
+            "id_appareil": "CAM001",
+            "event": "OFF",
+            "date_complete": "2025-06-14 19:40:10"
+        },
+        {
+            "id_event": 263,
+            "id_appareil": "CAM009",
+            "event": "OFF",
+            "date_complete": "2025-06-14 20:05:10"
+        },
+        {
+            "id_event": 264,
+            "id_appareil": "CAM004",
+            "event": "OFF",
+            "date_complete": "2025-06-14 20:26:10"
+        },
+        {
+            "id_event": 265,
+            "id_appareil": "CAM007",
+            "event": "ON",
+            "date_complete": "2025-06-14 20:28:10"
+        },
+        {
+            "id_event": 266,
+            "id_appareil": "CAM003",
+            "event": "ON",
+            "date_complete": "2025-06-14 20:47:10"
+        },
+        {
+            "id_event": 267,
+            "id_appareil": "CAM007",
+            "event": "OFF",
+            "date_complete": "2025-06-14 21:12:10"
+        },
+        {
+            "id_event": 268,
+            "id_appareil": "CAM006",
+            "event": "OFF",
+            "date_complete": "2025-06-14 21:37:10"
+        },
+        {
+            "id_event": 269,
+            "id_appareil": "CAM009",
+            "event": "ON",
+            "date_complete": "2025-06-14 22:03:10"
+        },
+        {
+            "id_event": 270,
+            "id_appareil": "CAM006",
+            "event": "ON",
+            "date_complete": "2025-06-14 22:23:10"
+        },
+        {
+            "id_event": 271,
+            "id_appareil": "CAM010",
+            "event": "ON",
+            "date_complete": "2025-06-14 22:39:10"
+        },
+        {
+            "id_event": 272,
+            "id_appareil": "CAM008",
+            "event": "ON",
+            "date_complete": "2025-06-14 22:50:10"
+        },
+        {
+            "id_event": 273,
+            "id_appareil": "CAM005",
+            "event": "OFF",
+            "date_complete": "2025-06-14 23:20:10"
+        },
+        {
+            "id_event": 274,
+            "id_appareil": "CAM003",
+            "event": "OFF",
+            "date_complete": "2025-06-14 23:51:10"
+        },
+        {
+            "id_event": 275,
+            "id_appareil": "CAM010",
+            "event": "OFF",
+            "date_complete": "2025-06-15 09:48:45"
+        },
+        {
+            "id_event": 276,
+            "id_appareil": "CAM004",
+            "event": "ON",
+            "date_complete": "2025-06-15 10:04:45"
+        },
+        {
+            "id_event": 277,
+            "id_appareil": "CAM003",
+            "event": "ON",
+            "date_complete": "2025-06-15 11:33:45"
+        },
+        {
+            "id_event": 278,
+            "id_appareil": "CAM007",
+            "event": "ON",
+            "date_complete": "2025-06-15 19:07:19"
+        },
+        {
+            "id_event": 279,
+            "id_appareil": "CAM005",
+            "event": "ON",
+            "date_complete": "2025-06-15 19:35:03"
+        },
+        {
+            "id_event": 280,
+            "id_appareil": "CAM005",
+            "event": "OFF",
+            "date_complete": "2025-06-15 19:58:03"
+        },
+        {
+            "id_event": 281,
+            "id_appareil": "CAM010",
+            "event": "ON",
+            "date_complete": "2025-06-15 20:18:03"
+        },
+        {
+            "id_event": 282,
+            "id_appareil": "CAM008",
+            "event": "OFF",
+            "date_complete": "2025-06-15 20:47:03"
+        },
+        {
+            "id_event": 283,
+            "id_appareil": "CAM009",
+            "event": "OFF",
+            "date_complete": "2025-06-15 20:59:03"
+        },
+        {
+            "id_event": 284,
+            "id_appareil": "CAM003",
+            "event": "OFF",
+            "date_complete": "2025-06-15 21:30:03"
+        },
+        {
+            "id_event": 285,
+            "id_appareil": "CAM009",
+            "event": "ON",
+            "date_complete": "2025-06-15 21:45:03"
+        },
+        {
+            "id_event": 286,
+            "id_appareil": "CAM004",
+            "event": "OFF",
+            "date_complete": "2025-06-15 21:58:03"
+        },
+        {
+            "id_event": 287,
+            "id_appareil": "CAM008",
+            "event": "ON",
+            "date_complete": "2025-06-15 22:21:03"
+        },
+        {
+            "id_event": 288,
+            "id_appareil": "CAM004",
+            "event": "ON",
+            "date_complete": "2025-06-15 22:28:03"
+        },
+        {
+            "id_event": 289,
+            "id_appareil": "CAM002",
+            "event": "ON",
+            "date_complete": "2025-06-15 22:49:03"
+        },
+        {
+            "id_event": 290,
+            "id_appareil": "CAM007",
+            "event": "OFF",
+            "date_complete": "2025-06-15 22:56:03"
+        },
+        {
+            "id_event": 291,
+            "id_appareil": "CAM008",
+            "event": "OFF",
+            "date_complete": "2025-06-15 23:07:03"
+        },
+        {
+            "id_event": 292,
+            "id_appareil": "CAM003",
+            "event": "ON",
+            "date_complete": "2025-06-15 23:34:03"
+        },
+        {
+            "id_event": 293,
+            "id_appareil": "CAM008",
+            "event": "ON",
+            "date_complete": "2025-06-15 23:57:03"
+        },
+        {
+            "id_event": 294,
+            "id_appareil": "CAM007",
+            "event": "ON",
+            "date_complete": "2025-06-16 13:00:06"
+        },
+        {
+            "id_event": 295,
+            "id_appareil": "CAM002",
+            "event": "OFF",
+            "date_complete": "2025-06-16 16:12:08"
+        },
+        {
+            "id_event": 296,
+            "id_appareil": "CAM003",
+            "event": "OFF",
+            "date_complete": "2025-06-16 16:26:08"
+        },
+        {
+            "id_event": 297,
+            "id_appareil": "CAM007",
+            "event": "OFF",
+            "date_complete": "2025-06-16 17:30:07"
+        },
+        {
+            "id_event": 298,
+            "id_appareil": "CAM007",
+            "event": "ON",
+            "date_complete": "2025-06-16 17:54:07"
+        },
+        {
+            "id_event": 299,
+            "id_appareil": "CAM010",
+            "event": "OFF",
+            "date_complete": "2025-06-16 18:22:07"
+        },
+        {
+            "id_event": 300,
+            "id_appareil": "CAM010",
+            "event": "ON",
+            "date_complete": "2025-06-16 18:29:07"
+        },
+        {
+            "id_event": 301,
+            "id_appareil": "CAM010",
+            "event": "OFF",
+            "date_complete": "2025-06-16 18:45:07"
+        },
+        {
+            "id_event": 302,
+            "id_appareil": "CAM002",
+            "event": "ON",
+            "date_complete": "2025-06-16 19:08:15"
+        },
+        {
+            "id_event": 303,
+            "id_appareil": "CAM003",
+            "event": "ON",
+            "date_complete": "2025-06-16 19:36:15"
+        },
+        {
+            "id_event": 304,
+            "id_appareil": "CAM005",
+            "event": "ON",
+            "date_complete": "2025-06-16 19:56:15"
+        },
+        {
+            "id_event": 305,
+            "id_appareil": "CAM009",
+            "event": "OFF",
+            "date_complete": "2025-06-16 20:10:15"
+        },
+        {
+            "id_event": 306,
+            "id_appareil": "CAM004",
+            "event": "OFF",
+            "date_complete": "2025-06-16 20:17:15"
+        },
+        {
+            "id_event": 307,
+            "id_appareil": "CAM009",
+            "event": "ON",
+            "date_complete": "2025-06-16 20:38:15"
+        },
+        {
+            "id_event": 308,
+            "id_appareil": "CAM007",
+            "event": "OFF",
+            "date_complete": "2025-06-16 21:03:15"
+        },
+        {
+            "id_event": 309,
+            "id_appareil": "CAM002",
+            "event": "OFF",
+            "date_complete": "2025-06-16 21:08:15"
+        },
+        {
+            "id_event": 310,
+            "id_appareil": "CAM002",
+            "event": "ON",
+            "date_complete": "2025-06-16 21:16:15"
+        },
+        {
+            "id_event": 311,
+            "id_appareil": "CAM005",
+            "event": "OFF",
+            "date_complete": "2025-06-16 21:39:15"
+        },
+        {
+            "id_event": 312,
+            "id_appareil": "CAM009",
+            "event": "OFF",
+            "date_complete": "2025-06-16 22:03:15"
+        },
+        {
+            "id_event": 313,
+            "id_appareil": "CAM003",
+            "event": "OFF",
+            "date_complete": "2025-06-16 22:23:15"
+        },
+        {
+            "id_event": 314,
+            "id_appareil": "CAM006",
+            "event": "OFF",
+            "date_complete": "2025-06-16 22:49:15"
+        },
+        {
+            "id_event": 315,
+            "id_appareil": "CAM004",
+            "event": "ON",
+            "date_complete": "2025-06-16 23:07:15"
+        },
+        {
+            "id_event": 316,
+            "id_appareil": "CAM008",
+            "event": "OFF",
+            "date_complete": "2025-06-16 23:09:15"
+        },
+        {
+            "id_event": 317,
+            "id_appareil": "CAM004",
+            "event": "OFF",
+            "date_complete": "2025-06-16 23:29:15"
+        },
+        {
+            "id_event": 318,
+            "id_appareil": "CAM005",
+            "event": "ON",
+            "date_complete": "2025-06-16 23:49:15"
+        },
+        {
+            "id_event": 319,
+            "id_appareil": "CAM005",
+            "event": "OFF",
+            "date_complete": "2025-06-17 19:42:44"
+        },
+        {
+            "id_event": 320,
+            "id_appareil": "CAM007",
+            "event": "ON",
+            "date_complete": "2025-06-17 20:37:05"
+        },
+        {
+            "id_event": 321,
+            "id_appareil": "CAM006",
+            "event": "ON",
+            "date_complete": "2025-06-17 21:01:05"
+        },
+        {
+            "id_event": 322,
+            "id_appareil": "CAM007",
+            "event": "OFF",
+            "date_complete": "2025-06-17 21:15:05"
+        },
+        {
+            "id_event": 323,
+            "id_appareil": "CAM001",
+            "event": "ON",
+            "date_complete": "2025-06-17 21:30:05"
+        },
+        {
+            "id_event": 324,
+            "id_appareil": "CAM002",
+            "event": "OFF",
+            "date_complete": "2025-06-17 21:49:05"
+        },
+        {
+            "id_event": 325,
+            "id_appareil": "CAM007",
+            "event": "ON",
+            "date_complete": "2025-06-17 22:01:05"
+        },
+        {
+            "id_event": 326,
+            "id_appareil": "CAM002",
+            "event": "ON",
+            "date_complete": "2025-06-17 22:11:05"
+        },
+        {
+            "id_event": 327,
+            "id_appareil": "CAM002",
+            "event": "OFF",
+            "date_complete": "2025-06-17 22:15:05"
+        },
+        {
+            "id_event": 328,
+            "id_appareil": "CAM005",
+            "event": "ON",
+            "date_complete": "2025-06-17 22:24:05"
+        },
+        {
+            "id_event": 329,
+            "id_appareil": "CAM005",
+            "event": "OFF",
+            "date_complete": "2025-06-17 22:50:05"
+        },
+        {
+            "id_event": 330,
+            "id_appareil": "CAM004",
+            "event": "ON",
+            "date_complete": "2025-06-17 23:21:05"
+        },
+        {
+            "id_event": 331,
+            "id_appareil": "CAM005",
+            "event": "ON",
+            "date_complete": "2025-06-17 23:46:05"
+        },
+        {
+            "id_event": 332,
+            "id_appareil": "CAM010",
+            "event": "ON",
+            "date_complete": "2025-06-17 23:54:05"
+        },
+        {
+            "id_event": 333,
+            "id_appareil": "CAM001",
+            "event": "OFF",
+            "date_complete": "2025-06-17 23:59:05"
+        },
+        {
+            "id_event": 334,
+            "id_appareil": "CAM007",
+            "event": "OFF",
+            "date_complete": "2025-06-18 19:47:34"
+        },
+        {
+            "id_event": 335,
+            "id_appareil": "CAM003",
+            "event": "ON",
+            "date_complete": "2025-06-18 20:05:34"
+        },
+        {
+            "id_event": 336,
+            "id_appareil": "CAM009",
+            "event": "ON",
+            "date_complete": "2025-06-18 20:22:34"
+        },
+        {
+            "id_event": 337,
+            "id_appareil": "CAM004",
+            "event": "OFF",
+            "date_complete": "2025-06-18 20:38:34"
+        },
+        {
+            "id_event": 338,
+            "id_appareil": "CAM009",
+            "event": "OFF",
+            "date_complete": "2025-06-18 20:47:34"
+        },
+        {
+            "id_event": 339,
+            "id_appareil": "CAM010",
+            "event": "OFF",
+            "date_complete": "2025-06-18 20:59:34"
+        },
+        {
+            "id_event": 340,
+            "id_appareil": "CAM007",
+            "event": "ON",
+            "date_complete": "2025-06-18 21:19:34"
+        },
+        {
+            "id_event": 341,
+            "id_appareil": "CAM009",
+            "event": "ON",
+            "date_complete": "2025-06-18 21:27:34"
+        },
+        {
+            "id_event": 342,
+            "id_appareil": "CAM009",
+            "event": "OFF",
+            "date_complete": "2025-06-18 21:29:34"
+        },
+        {
+            "id_event": 343,
+            "id_appareil": "CAM005",
+            "event": "OFF",
+            "date_complete": "2025-06-18 21:37:34"
+        },
+        {
+            "id_event": 344,
+            "id_appareil": "CAM006",
+            "event": "OFF",
+            "date_complete": "2025-06-18 22:05:34"
+        },
+        {
+            "id_event": 345,
+            "id_appareil": "CAM005",
+            "event": "ON",
+            "date_complete": "2025-06-18 22:26:34"
+        },
+        {
+            "id_event": 346,
+            "id_appareil": "CAM001",
+            "event": "ON",
+            "date_complete": "2025-06-18 22:53:34"
+        },
+        {
+            "id_event": 347,
+            "id_appareil": "CAM002",
+            "event": "ON",
+            "date_complete": "2025-06-18 23:04:34"
+        },
+        {
+            "id_event": 348,
+            "id_appareil": "CAM004",
+            "event": "ON",
+            "date_complete": "2025-06-18 23:16:34"
+        },
+        {
+            "id_event": 349,
+            "id_appareil": "CAM006",
+            "event": "ON",
+            "date_complete": "2025-06-18 23:36:34"
+        },
+        {
+            "id_event": 350,
+            "id_appareil": "CAM010",
+            "event": "ON",
+            "date_complete": "2025-06-19 10:12:59"
+        },
+        {
+            "id_event": 351,
+            "id_appareil": "CAM003",
+            "event": "OFF",
+            "date_complete": "2025-06-19 17:07:36"
+        },
+        {
+            "id_event": 352,
+            "id_appareil": "CAM001",
+            "event": "OFF",
+            "date_complete": "2025-06-19 17:25:36"
+        },
+        {
+            "id_event": 353,
+            "id_appareil": "CAM001",
+            "event": "ON",
+            "date_complete": "2025-06-19 17:51:36"
+        },
+        {
+            "id_event": 354,
+            "id_appareil": "CAM009",
+            "event": "ON",
+            "date_complete": "2025-06-19 18:22:36"
+        },
+        {
+            "id_event": 355,
+            "id_appareil": "CAM003",
+            "event": "ON",
+            "date_complete": "2025-06-19 18:36:36"
+        },
+        {
+            "id_event": 356,
+            "id_appareil": "CAM005",
+            "event": "OFF",
+            "date_complete": "2025-06-19 19:03:36"
+        },
+        {
+            "id_event": 357,
+            "id_appareil": "CAM005",
+            "event": "ON",
+            "date_complete": "2025-06-19 19:23:36"
+        },
+        {
+            "id_event": 358,
+            "id_appareil": "CAM006",
+            "event": "OFF",
+            "date_complete": "2025-06-19 19:32:36"
+        },
+        {
+            "id_event": 359,
+            "id_appareil": "CAM007",
+            "event": "OFF",
+            "date_complete": "2025-06-19 19:56:36"
+        },
+        {
+            "id_event": 360,
+            "id_appareil": "CAM002",
+            "event": "OFF",
+            "date_complete": "2025-06-19 20:08:36"
+        },
+        {
+            "id_event": 361,
+            "id_appareil": "CAM004",
+            "event": "OFF",
+            "date_complete": "2025-06-19 20:23:36"
+        },
+        {
+            "id_event": 362,
+            "id_appareil": "CAM006",
+            "event": "ON",
+            "date_complete": "2025-06-19 20:42:36"
+        },
+        {
+            "id_event": 363,
+            "id_appareil": "CAM004",
+            "event": "ON",
+            "date_complete": "2025-06-19 21:04:36"
+        },
+        {
+            "id_event": 364,
+            "id_appareil": "CAM008",
+            "event": "ON",
+            "date_complete": "2025-06-19 21:12:36"
+        },
+        {
+            "id_event": 365,
+            "id_appareil": "CAM003",
+            "event": "OFF",
+            "date_complete": "2025-06-19 21:19:36"
+        },
+        {
+            "id_event": 366,
+            "id_appareil": "CAM008",
+            "event": "OFF",
+            "date_complete": "2025-06-19 21:39:36"
+        },
+        {
+            "id_event": 367,
+            "id_appareil": "CAM003",
+            "event": "ON",
+            "date_complete": "2025-06-19 21:49:36"
+        },
+        {
+            "id_event": 368,
+            "id_appareil": "CAM005",
+            "event": "OFF",
+            "date_complete": "2025-06-19 21:56:36"
+        },
+        {
+            "id_event": 369,
+            "id_appareil": "CAM003",
+            "event": "OFF",
+            "date_complete": "2025-06-19 22:17:36"
+        },
+        {
+            "id_event": 370,
+            "id_appareil": "CAM005",
+            "event": "ON",
+            "date_complete": "2025-06-19 22:33:36"
+        },
+        {
+            "id_event": 371,
+            "id_appareil": "CAM010",
+            "event": "OFF",
+            "date_complete": "2025-06-19 22:57:36"
+        },
+        {
+            "id_event": 372,
+            "id_appareil": "CAM002",
+            "event": "ON",
+            "date_complete": "2025-06-19 23:07:36"
+        },
+        {
+            "id_event": 373,
+            "id_appareil": "CAM004",
+            "event": "OFF",
+            "date_complete": "2025-06-19 23:25:36"
+        },
+        {
+            "id_event": 374,
+            "id_appareil": "CAM004",
+            "event": "ON",
+            "date_complete": "2025-06-19 23:47:36"
+        },
+        {
+            "id_event": 375,
+            "id_appareil": "CAM007",
+            "event": "ON",
+            "date_complete": "2025-06-19 23:49:36"
+        },
+        {
+            "id_event": 376,
+            "id_appareil": "CAM003",
+            "event": "ON",
+            "date_complete": "2025-06-19 23:58:36"
+        },
+        {
+            "id_event": 377,
+            "id_appareil": "CAM006",
+            "event": "OFF",
+            "date_complete": "2025-06-20 00:00:36"
+        },
+        {
+            "id_event": 378,
+            "id_appareil": "CAM006",
+            "event": "ON",
+            "date_complete": "2025-06-20 13:25:24"
+        },
+        {
+            "id_event": 379,
+            "id_appareil": "CAM001",
+            "event": "OFF",
+            "date_complete": "2025-06-20 13:29:24"
+        },
+        {
+            "id_event": 380,
+            "id_appareil": "CAM008",
+            "event": "ON",
+            "date_complete": "2025-06-20 17:14:23"
+        },
+        {
+            "id_event": 381,
+            "id_appareil": "CAM008",
+            "event": "OFF",
+            "date_complete": "2025-06-20 17:19:23"
+        },
+        {
+            "id_event": 382,
+            "id_appareil": "CAM001",
+            "event": "ON",
+            "date_complete": "2025-06-20 17:27:23"
+        },
+        {
+            "id_event": 383,
+            "id_appareil": "CAM002",
+            "event": "OFF",
+            "date_complete": "2025-06-20 17:37:23"
+        },
+        {
+            "id_event": 384,
+            "id_appareil": "CAM004",
+            "event": "OFF",
+            "date_complete": "2025-06-20 17:45:23"
+        },
+        {
+            "id_event": 385,
+            "id_appareil": "CAM006",
+            "event": "OFF",
+            "date_complete": "2025-06-20 17:47:23"
+        },
+        {
+            "id_event": 386,
+            "id_appareil": "CAM003",
+            "event": "OFF",
+            "date_complete": "2025-06-20 18:05:23"
+        },
+        {
+            "id_event": 387,
+            "id_appareil": "CAM009",
+            "event": "OFF",
+            "date_complete": "2025-06-20 18:22:57"
+        },
+        {
+            "id_event": 388,
+            "id_appareil": "CAM002",
+            "event": "ON",
+            "date_complete": "2025-06-20 18:52:57"
+        },
+        {
+            "id_event": 389,
+            "id_appareil": "CAM002",
+            "event": "OFF",
+            "date_complete": "2025-06-20 18:58:57"
+        },
+        {
+            "id_event": 390,
+            "id_appareil": "CAM004",
+            "event": "ON",
+            "date_complete": "2025-06-20 19:23:57"
+        },
+        {
+            "id_event": 391,
+            "id_appareil": "CAM004",
+            "event": "OFF",
+            "date_complete": "2025-06-20 19:35:57"
+        },
+        {
+            "id_event": 392,
+            "id_appareil": "CAM009",
+            "event": "ON",
+            "date_complete": "2025-06-20 20:02:57"
+        },
+        {
+            "id_event": 393,
+            "id_appareil": "CAM002",
+            "event": "ON",
+            "date_complete": "2025-06-20 20:17:57"
+        },
+        {
+            "id_event": 394,
+            "id_appareil": "CAM009",
+            "event": "OFF",
+            "date_complete": "2025-06-20 20:40:57"
+        },
+        {
+            "id_event": 395,
+            "id_appareil": "CAM009",
+            "event": "ON",
+            "date_complete": "2025-06-20 21:06:57"
+        },
+        {
+            "id_event": 396,
+            "id_appareil": "CAM002",
+            "event": "OFF",
+            "date_complete": "2025-06-20 21:23:57"
+        },
+        {
+            "id_event": 397,
+            "id_appareil": "CAM004",
+            "event": "ON",
+            "date_complete": "2025-06-20 21:36:57"
+        },
+        {
+            "id_event": 398,
+            "id_appareil": "CAM010",
+            "event": "ON",
+            "date_complete": "2025-06-20 21:52:57"
+        },
+        {
+            "id_event": 399,
+            "id_appareil": "CAM009",
+            "event": "OFF",
+            "date_complete": "2025-06-20 22:01:57"
+        },
+        {
+            "id_event": 400,
+            "id_appareil": "CAM003",
+            "event": "ON",
+            "date_complete": "2025-06-20 22:25:57"
+        },
+        {
+            "id_event": 401,
+            "id_appareil": "CAM003",
+            "event": "OFF",
+            "date_complete": "2025-06-20 22:51:57"
+        },
+        {
+            "id_event": 402,
+            "id_appareil": "CAM010",
+            "event": "OFF",
+            "date_complete": "2025-06-20 22:57:57"
+        },
+        {
+            "id_event": 403,
+            "id_appareil": "CAM007",
+            "event": "OFF",
+            "date_complete": "2025-06-20 23:27:57"
+        },
+        {
+            "id_event": 404,
+            "id_appareil": "CAM010",
+            "event": "ON",
+            "date_complete": "2025-06-20 23:56:57"
+        },
+        {
+            "id_event": 405,
+            "id_appareil": "CAM002",
+            "event": "ON",
+            "date_complete": "2025-06-21 04:46:01"
+        },
+        {
+            "id_event": 406,
+            "id_appareil": "CAM005",
+            "event": "OFF",
+            "date_complete": "2025-06-21 18:58:32"
+        },
+        {
+            "id_event": 407,
+            "id_appareil": "CAM002",
+            "event": "OFF",
+            "date_complete": "2025-06-21 19:24:32"
+        },
+        {
+            "id_event": 408,
+            "id_appareil": "CAM001",
+            "event": "OFF",
+            "date_complete": "2025-06-21 19:38:32"
+        },
+        {
+            "id_event": 409,
+            "id_appareil": "CAM001",
+            "event": "ON",
+            "date_complete": "2025-06-21 19:49:32"
+        },
+        {
+            "id_event": 410,
+            "id_appareil": "CAM001",
+            "event": "OFF",
+            "date_complete": "2025-06-21 20:13:32"
+        },
+        {
+            "id_event": 411,
+            "id_appareil": "CAM006",
+            "event": "ON",
+            "date_complete": "2025-06-21 20:16:32"
+        },
+        {
+            "id_event": 412,
+            "id_appareil": "CAM006",
+            "event": "OFF",
+            "date_complete": "2025-06-21 20:28:32"
+        },
+        {
+            "id_event": 413,
+            "id_appareil": "CAM009",
+            "event": "ON",
+            "date_complete": "2025-06-21 20:32:32"
+        },
+        {
+            "id_event": 414,
+            "id_appareil": "CAM006",
+            "event": "ON",
+            "date_complete": "2025-06-21 20:51:32"
+        },
+        {
+            "id_event": 415,
+            "id_appareil": "CAM004",
+            "event": "OFF",
+            "date_complete": "2025-06-21 21:13:32"
+        },
+        {
+            "id_event": 416,
+            "id_appareil": "CAM008",
+            "event": "ON",
+            "date_complete": "2025-06-21 21:30:32"
+        },
+        {
+            "id_event": 417,
+            "id_appareil": "CAM010",
+            "event": "OFF",
+            "date_complete": "2025-06-21 21:38:32"
+        },
+        {
+            "id_event": 418,
+            "id_appareil": "CAM001",
+            "event": "ON",
+            "date_complete": "2025-06-21 21:46:32"
+        },
+        {
+            "id_event": 419,
+            "id_appareil": "CAM005",
+            "event": "ON",
+            "date_complete": "2025-06-21 21:52:32"
+        },
+        {
+            "id_event": 420,
+            "id_appareil": "CAM002",
+            "event": "ON",
+            "date_complete": "2025-06-21 22:20:32"
+        },
+        {
+            "id_event": 421,
+            "id_appareil": "CAM005",
+            "event": "OFF",
+            "date_complete": "2025-06-21 22:38:32"
+        },
+        {
+            "id_event": 422,
+            "id_appareil": "CAM007",
+            "event": "ON",
+            "date_complete": "2025-06-21 22:40:32"
+        },
+        {
+            "id_event": 423,
+            "id_appareil": "CAM006",
+            "event": "OFF",
+            "date_complete": "2025-06-21 22:50:32"
+        },
+        {
+            "id_event": 424,
+            "id_appareil": "CAM002",
+            "event": "OFF",
+            "date_complete": "2025-06-21 22:53:32"
+        },
+        {
+            "id_event": 425,
+            "id_appareil": "CAM006",
+            "event": "ON",
+            "date_complete": "2025-06-21 22:58:32"
+        },
+        {
+            "id_event": 426,
+            "id_appareil": "CAM007",
+            "event": "OFF",
+            "date_complete": "2025-06-21 23:27:32"
+        },
+        {
+            "id_event": 427,
+            "id_appareil": "CAM003",
+            "event": "ON",
+            "date_complete": "2025-06-21 23:33:32"
+        },
+        {
+            "id_event": 428,
+            "id_appareil": "CAM006",
+            "event": "OFF",
+            "date_complete": "2025-06-21 23:55:32"
+        },
+        {
+            "id_event": 429,
+            "id_appareil": "CAM001",
+            "event": "OFF",
+            "date_complete": "2025-06-22 11:49:13"
+        },
+        {
+            "id_event": 430,
+            "id_appareil": "CAM005",
+            "event": "ON",
+            "date_complete": "2025-06-22 11:52:13"
+        },
+        {
+            "id_event": 431,
+            "id_appareil": "CAM007",
+            "event": "ON",
+            "date_complete": "2025-06-22 12:16:13"
+        },
+        {
+            "id_event": 432,
+            "id_appareil": "CAM002",
+            "event": "ON",
+            "date_complete": "2025-06-22 17:13:16"
+        },
+        {
+            "id_event": 433,
+            "id_appareil": "CAM008",
+            "event": "OFF",
+            "date_complete": "2025-06-22 17:39:16"
+        },
+        {
+            "id_event": 434,
+            "id_appareil": "CAM006",
+            "event": "ON",
+            "date_complete": "2025-06-22 17:43:16"
+        },
+        {
+            "id_event": 435,
+            "id_appareil": "CAM002",
+            "event": "OFF",
+            "date_complete": "2025-06-22 18:13:16"
+        },
+        {
+            "id_event": 436,
+            "id_appareil": "CAM004",
+            "event": "ON",
+            "date_complete": "2025-06-22 18:16:16"
+        },
+        {
+            "id_event": 437,
+            "id_appareil": "CAM009",
+            "event": "OFF",
+            "date_complete": "2025-06-22 18:39:16"
+        },
+        {
+            "id_event": 438,
+            "id_appareil": "CAM004",
+            "event": "OFF",
+            "date_complete": "2025-06-22 19:00:16"
+        },
+        {
+            "id_event": 439,
+            "id_appareil": "CAM008",
+            "event": "ON",
+            "date_complete": "2025-06-22 19:13:16"
+        },
+        {
+            "id_event": 440,
+            "id_appareil": "CAM003",
+            "event": "OFF",
+            "date_complete": "2025-06-22 19:43:16"
+        },
+        {
+            "id_event": 441,
+            "id_appareil": "CAM004",
+            "event": "ON",
+            "date_complete": "2025-06-22 20:07:16"
+        },
+        {
+            "id_event": 442,
+            "id_appareil": "CAM003",
+            "event": "ON",
+            "date_complete": "2025-06-22 20:20:16"
+        },
+        {
+            "id_event": 443,
+            "id_appareil": "CAM006",
+            "event": "OFF",
+            "date_complete": "2025-06-22 20:48:16"
+        },
+        {
+            "id_event": 444,
+            "id_appareil": "CAM003",
+            "event": "OFF",
+            "date_complete": "2025-06-22 21:01:16"
+        },
+        {
+            "id_event": 445,
+            "id_appareil": "CAM007",
+            "event": "OFF",
+            "date_complete": "2025-06-22 21:30:16"
+        },
+        {
+            "id_event": 446,
+            "id_appareil": "CAM003",
+            "event": "ON",
+            "date_complete": "2025-06-22 21:35:16"
+        },
+        {
+            "id_event": 447,
+            "id_appareil": "CAM010",
+            "event": "ON",
+            "date_complete": "2025-06-22 22:05:16"
+        },
+        {
+            "id_event": 448,
+            "id_appareil": "CAM003",
+            "event": "OFF",
+            "date_complete": "2025-06-22 22:31:16"
+        },
+        {
+            "id_event": 449,
+            "id_appareil": "CAM005",
+            "event": "OFF",
+            "date_complete": "2025-06-22 22:45:16"
+        },
+        {
+            "id_event": 450,
+            "id_appareil": "CAM001",
+            "event": "ON",
+            "date_complete": "2025-06-22 23:11:16"
+        },
+        {
+            "id_event": 451,
+            "id_appareil": "CAM001",
+            "event": "OFF",
+            "date_complete": "2025-06-22 23:37:16"
+        },
+        {
+            "id_event": 452,
+            "id_appareil": "CAM002",
+            "event": "ON",
+            "date_complete": "2025-06-22 23:55:16"
+        },
+        {
+            "id_event": 453,
+            "id_appareil": "CAM004",
+            "event": "OFF",
+            "date_complete": "2025-06-23 17:52:10"
+        },
+        {
+            "id_event": 454,
+            "id_appareil": "CAM006",
+            "event": "ON",
+            "date_complete": "2025-06-23 17:55:10"
+        },
+        {
+            "id_event": 455,
+            "id_appareil": "CAM006",
+            "event": "OFF",
+            "date_complete": "2025-06-23 18:04:10"
+        },
+        {
+            "id_event": 456,
+            "id_appareil": "CAM005",
+            "event": "ON",
+            "date_complete": "2025-06-23 18:33:10"
+        },
+        {
+            "id_event": 457,
+            "id_appareil": "CAM009",
+            "event": "ON",
+            "date_complete": "2025-06-23 18:59:10"
+        },
+        {
+            "id_event": 458,
+            "id_appareil": "CAM004",
+            "event": "ON",
+            "date_complete": "2025-06-23 19:16:10"
+        },
+        {
+            "id_event": 459,
+            "id_appareil": "CAM007",
+            "event": "ON",
+            "date_complete": "2025-06-23 19:34:10"
+        },
+        {
+            "id_event": 460,
+            "id_appareil": "CAM001",
+            "event": "ON",
+            "date_complete": "2025-06-23 19:45:10"
+        },
+        {
+            "id_event": 461,
+            "id_appareil": "CAM002",
+            "event": "OFF",
+            "date_complete": "2025-06-23 19:52:10"
+        },
+        {
+            "id_event": 462,
+            "id_appareil": "CAM004",
+            "event": "OFF",
+            "date_complete": "2025-06-23 20:15:10"
+        },
+        {
+            "id_event": 463,
+            "id_appareil": "CAM007",
+            "event": "OFF",
+            "date_complete": "2025-06-23 20:23:10"
+        },
+        {
+            "id_event": 464,
+            "id_appareil": "CAM003",
+            "event": "ON",
+            "date_complete": "2025-06-23 20:33:10"
+        },
+        {
+            "id_event": 465,
+            "id_appareil": "CAM004",
+            "event": "ON",
+            "date_complete": "2025-06-23 20:48:10"
+        },
+        {
+            "id_event": 466,
+            "id_appareil": "CAM008",
+            "event": "OFF",
+            "date_complete": "2025-06-23 21:04:10"
+        },
+        {
+            "id_event": 467,
+            "id_appareil": "CAM003",
+            "event": "OFF",
+            "date_complete": "2025-06-23 21:34:10"
+        },
+        {
+            "id_event": 468,
+            "id_appareil": "CAM002",
+            "event": "ON",
+            "date_complete": "2025-06-23 21:48:10"
+        },
+        {
+            "id_event": 469,
+            "id_appareil": "CAM002",
+            "event": "OFF",
+            "date_complete": "2025-06-23 21:54:10"
+        },
+        {
+            "id_event": 470,
+            "id_appareil": "CAM005",
+            "event": "OFF",
+            "date_complete": "2025-06-23 22:06:10"
+        },
+        {
+            "id_event": 471,
+            "id_appareil": "CAM009",
+            "event": "OFF",
+            "date_complete": "2025-06-23 22:17:10"
+        },
+        {
+            "id_event": 472,
+            "id_appareil": "CAM001",
+            "event": "OFF",
+            "date_complete": "2025-06-23 22:48:10"
+        },
+        {
+            "id_event": 473,
+            "id_appareil": "CAM001",
+            "event": "ON",
+            "date_complete": "2025-06-23 23:07:10"
+        },
+        {
+            "id_event": 474,
+            "id_appareil": "CAM007",
+            "event": "ON",
+            "date_complete": "2025-06-23 23:29:10"
+        },
+        {
+            "id_event": 475,
+            "id_appareil": "CAM006",
+            "event": "ON",
+            "date_complete": "2025-06-23 23:37:10"
+        },
+        {
+            "id_event": 476,
+            "id_appareil": "CAM005",
+            "event": "ON",
+            "date_complete": "2025-06-23 23:48:10"
+        },
+        {
+            "id_event": 477,
+            "id_appareil": "CAM004",
+            "event": "OFF",
+            "date_complete": "2025-06-24 11:36:35"
+        },
+        {
+            "id_event": 478,
+            "id_appareil": "CAM002",
+            "event": "ON",
+            "date_complete": "2025-06-24 12:05:35"
+        },
+        {
+            "id_event": 479,
+            "id_appareil": "CAM010",
+            "event": "OFF",
+            "date_complete": "2025-06-24 12:36:35"
+        },
+        {
+            "id_event": 480,
+            "id_appareil": "CAM003",
+            "event": "ON",
+            "date_complete": "2025-06-24 12:40:35"
+        },
+        {
+            "id_event": 481,
+            "id_appareil": "CAM010",
+            "event": "ON",
+            "date_complete": "2025-06-24 12:49:35"
+        },
+        {
+            "id_event": 482,
+            "id_appareil": "CAM008",
+            "event": "ON",
+            "date_complete": "2025-06-24 13:00:35"
+        },
+        {
+            "id_event": 483,
+            "id_appareil": "CAM004",
+            "event": "ON",
+            "date_complete": "2025-06-24 19:11:30"
+        },
+        {
+            "id_event": 484,
+            "id_appareil": "CAM008",
+            "event": "OFF",
+            "date_complete": "2025-06-24 19:39:30"
+        },
+        {
+            "id_event": 485,
+            "id_appareil": "CAM004",
+            "event": "OFF",
+            "date_complete": "2025-06-24 19:54:30"
+        },
+        {
+            "id_event": 486,
+            "id_appareil": "CAM005",
+            "event": "OFF",
+            "date_complete": "2025-06-24 20:01:30"
+        },
+        {
+            "id_event": 487,
+            "id_appareil": "CAM009",
+            "event": "ON",
+            "date_complete": "2025-06-24 20:23:30"
+        },
+        {
+            "id_event": 488,
+            "id_appareil": "CAM009",
+            "event": "OFF",
+            "date_complete": "2025-06-24 20:45:30"
+        },
+        {
+            "id_event": 489,
+            "id_appareil": "CAM009",
+            "event": "ON",
+            "date_complete": "2025-06-24 20:52:30"
+        },
+        {
+            "id_event": 490,
+            "id_appareil": "CAM008",
+            "event": "ON",
+            "date_complete": "2025-06-24 21:15:30"
+        },
+        {
+            "id_event": 491,
+            "id_appareil": "CAM009",
+            "event": "OFF",
+            "date_complete": "2025-06-24 21:41:30"
+        },
+        {
+            "id_event": 492,
+            "id_appareil": "CAM008",
+            "event": "OFF",
+            "date_complete": "2025-06-24 22:09:30"
+        },
+        {
+            "id_event": 493,
+            "id_appareil": "CAM001",
+            "event": "OFF",
+            "date_complete": "2025-06-24 22:12:30"
+        },
+        {
+            "id_event": 494,
+            "id_appareil": "CAM007",
+            "event": "OFF",
+            "date_complete": "2025-06-24 22:20:30"
+        },
+        {
+            "id_event": 495,
+            "id_appareil": "CAM005",
+            "event": "ON",
+            "date_complete": "2025-06-24 22:41:30"
+        },
+        {
+            "id_event": 496,
+            "id_appareil": "CAM003",
+            "event": "OFF",
+            "date_complete": "2025-06-24 23:06:30"
+        },
+        {
+            "id_event": 497,
+            "id_appareil": "CAM002",
+            "event": "OFF",
+            "date_complete": "2025-06-24 23:18:30"
+        },
+        {
+            "id_event": 498,
+            "id_appareil": "CAM010",
+            "event": "OFF",
+            "date_complete": "2025-06-24 23:26:30"
+        },
+        {
+            "id_event": 499,
+            "id_appareil": "CAM007",
+            "event": "ON",
+            "date_complete": "2025-06-24 23:32:30"
+        },
+        {
+            "id_event": 500,
+            "id_appareil": "CAM008",
+            "event": "ON",
+            "date_complete": "2025-06-24 23:39:30"
+        },
+        {
+            "id_event": 501,
+            "id_appareil": "CAM006",
+            "event": "OFF",
+            "date_complete": "2025-06-24 23:59:30"
+        },
+        {
+            "id_event": 502,
+            "id_appareil": "CAM005",
+            "event": "OFF",
+            "date_complete": "2025-06-25 09:12:26"
+        },
+        {
+            "id_event": 503,
+            "id_appareil": "CAM008",
+            "event": "OFF",
+            "date_complete": "2025-06-25 10:43:02"
+        },
+        {
+            "id_event": 504,
+            "id_appareil": "CAM010",
+            "event": "ON",
+            "date_complete": "2025-06-25 17:12:42"
+        },
+        {
+            "id_event": 505,
+            "id_appareil": "CAM009",
+            "event": "ON",
+            "date_complete": "2025-06-25 17:20:42"
+        },
+        {
+            "id_event": 506,
+            "id_appareil": "CAM002",
+            "event": "ON",
+            "date_complete": "2025-06-25 17:41:42"
+        },
+        {
+            "id_event": 507,
+            "id_appareil": "CAM010",
+            "event": "OFF",
+            "date_complete": "2025-06-25 17:45:42"
+        },
+        {
+            "id_event": 508,
+            "id_appareil": "CAM005",
+            "event": "ON",
+            "date_complete": "2025-06-25 17:47:42"
+        },
+        {
+            "id_event": 509,
+            "id_appareil": "CAM009",
+            "event": "OFF",
+            "date_complete": "2025-06-25 18:15:42"
+        },
+        {
+            "id_event": 510,
+            "id_appareil": "CAM006",
+            "event": "ON",
+            "date_complete": "2025-06-25 18:46:42"
+        },
+        {
+            "id_event": 511,
+            "id_appareil": "CAM010",
+            "event": "ON",
+            "date_complete": "2025-06-25 19:07:42"
+        },
+        {
+            "id_event": 512,
+            "id_appareil": "CAM010",
+            "event": "OFF",
+            "date_complete": "2025-06-25 19:21:42"
+        },
+        {
+            "id_event": 513,
+            "id_appareil": "CAM005",
+            "event": "OFF",
+            "date_complete": "2025-06-25 19:37:42"
+        },
+        {
+            "id_event": 514,
+            "id_appareil": "CAM002",
+            "event": "OFF",
+            "date_complete": "2025-06-25 19:44:42"
+        },
+        {
+            "id_event": 515,
+            "id_appareil": "CAM006",
+            "event": "OFF",
+            "date_complete": "2025-06-25 19:52:42"
+        },
+        {
+            "id_event": 516,
+            "id_appareil": "CAM007",
+            "event": "OFF",
+            "date_complete": "2025-06-25 20:14:42"
+        },
+        {
+            "id_event": 517,
+            "id_appareil": "CAM005",
+            "event": "ON",
+            "date_complete": "2025-06-25 20:20:42"
+        },
+        {
+            "id_event": 518,
+            "id_appareil": "CAM008",
+            "event": "ON",
+            "date_complete": "2025-06-25 20:29:42"
+        },
+        {
+            "id_event": 519,
+            "id_appareil": "CAM001",
+            "event": "ON",
+            "date_complete": "2025-06-25 20:41:42"
+        },
+        {
+            "id_event": 520,
+            "id_appareil": "CAM002",
+            "event": "ON",
+            "date_complete": "2025-06-25 21:03:42"
+        },
+        {
+            "id_event": 521,
+            "id_appareil": "CAM005",
+            "event": "OFF",
+            "date_complete": "2025-06-25 21:25:42"
+        },
+        {
+            "id_event": 522,
+            "id_appareil": "CAM006",
+            "event": "ON",
+            "date_complete": "2025-06-25 21:55:42"
+        },
+        {
+            "id_event": 523,
+            "id_appareil": "CAM005",
+            "event": "ON",
+            "date_complete": "2025-06-25 22:21:42"
+        },
+        {
+            "id_event": 524,
+            "id_appareil": "CAM001",
+            "event": "OFF",
+            "date_complete": "2025-06-25 22:30:42"
+        },
+        {
+            "id_event": 525,
+            "id_appareil": "CAM005",
+            "event": "OFF",
+            "date_complete": "2025-06-25 22:44:42"
+        },
+        {
+            "id_event": 526,
+            "id_appareil": "CAM004",
+            "event": "ON",
+            "date_complete": "2025-06-25 22:54:42"
+        },
+        {
+            "id_event": 527,
+            "id_appareil": "CAM004",
+            "event": "OFF",
+            "date_complete": "2025-06-25 23:21:42"
+        },
+        {
+            "id_event": 528,
+            "id_appareil": "CAM010",
+            "event": "ON",
+            "date_complete": "2025-06-25 23:31:42"
+        },
+        {
+            "id_event": 529,
+            "id_appareil": "CAM003",
+            "event": "ON",
+            "date_complete": "2025-06-25 23:55:42"
+        },
+        {
+            "id_event": 530,
+            "id_appareil": "CAM005",
+            "event": "ON",
+            "date_complete": "2025-06-26 14:51:53"
+        },
+        {
+            "id_event": 531,
+            "id_appareil": "CAM003",
+            "event": "OFF",
+            "date_complete": "2025-06-26 15:17:53"
+        },
+        {
+            "id_event": 532,
+            "id_appareil": "CAM010",
+            "event": "OFF",
+            "date_complete": "2025-06-26 15:39:53"
+        },
+        {
+            "id_event": 533,
+            "id_appareil": "CAM009",
+            "event": "ON",
+            "date_complete": "2025-06-26 15:50:53"
+        },
+        {
+            "id_event": 534,
+            "id_appareil": "CAM006",
+            "event": "OFF",
+            "date_complete": "2025-06-26 16:15:53"
+        },
+        {
+            "id_event": 535,
+            "id_appareil": "CAM008",
+            "event": "OFF",
+            "date_complete": "2025-06-26 16:36:53"
+        },
+        {
+            "id_event": 536,
+            "id_appareil": "CAM006",
+            "event": "ON",
+            "date_complete": "2025-06-26 17:05:53"
+        },
+        {
+            "id_event": 537,
+            "id_appareil": "CAM008",
+            "event": "ON",
+            "date_complete": "2025-06-26 19:57:47"
+        },
+        {
+            "id_event": 538,
+            "id_appareil": "CAM010",
+            "event": "ON",
+            "date_complete": "2025-06-26 20:08:47"
+        },
+        {
+            "id_event": 539,
+            "id_appareil": "CAM002",
+            "event": "OFF",
+            "date_complete": "2025-06-26 20:20:47"
+        },
+        {
+            "id_event": 540,
+            "id_appareil": "CAM007",
+            "event": "ON",
+            "date_complete": "2025-06-26 20:23:47"
+        },
+        {
+            "id_event": 541,
+            "id_appareil": "CAM003",
+            "event": "ON",
+            "date_complete": "2025-06-26 20:40:47"
+        },
+        {
+            "id_event": 542,
+            "id_appareil": "CAM005",
+            "event": "OFF",
+            "date_complete": "2025-06-26 20:50:47"
+        },
+        {
+            "id_event": 543,
+            "id_appareil": "CAM005",
+            "event": "ON",
+            "date_complete": "2025-06-26 21:18:47"
+        },
+        {
+            "id_event": 544,
+            "id_appareil": "CAM009",
+            "event": "OFF",
+            "date_complete": "2025-06-26 21:22:47"
+        },
+        {
+            "id_event": 545,
+            "id_appareil": "CAM001",
+            "event": "ON",
+            "date_complete": "2025-06-26 21:50:47"
+        },
+        {
+            "id_event": 546,
+            "id_appareil": "CAM007",
+            "event": "OFF",
+            "date_complete": "2025-06-26 22:20:47"
+        },
+        {
+            "id_event": 547,
+            "id_appareil": "CAM005",
+            "event": "OFF",
+            "date_complete": "2025-06-26 22:46:47"
+        },
+        {
+            "id_event": 548,
+            "id_appareil": "CAM003",
+            "event": "OFF",
+            "date_complete": "2025-06-26 22:59:47"
+        },
+        {
+            "id_event": 549,
+            "id_appareil": "CAM005",
+            "event": "ON",
+            "date_complete": "2025-06-26 23:23:47"
+        },
+        {
+            "id_event": 550,
+            "id_appareil": "CAM004",
+            "event": "ON",
+            "date_complete": "2025-06-26 23:34:47"
+        },
+        {
+            "id_event": 551,
+            "id_appareil": "CAM001",
+            "event": "OFF",
+            "date_complete": "2025-06-26 23:51:47"
+        },
+        {
+            "id_event": 552,
+            "id_appareil": "CAM003",
+            "event": "ON",
+            "date_complete": "2025-06-27 19:55:16"
+        },
+        {
+            "id_event": 553,
+            "id_appareil": "CAM005",
+            "event": "OFF",
+            "date_complete": "2025-06-27 20:21:16"
+        },
+        {
+            "id_event": 554,
+            "id_appareil": "CAM006",
+            "event": "OFF",
+            "date_complete": "2025-06-27 20:33:16"
+        },
+        {
+            "id_event": 555,
+            "id_appareil": "CAM010",
+            "event": "OFF",
+            "date_complete": "2025-06-27 20:37:16"
+        },
+        {
+            "id_event": 556,
+            "id_appareil": "CAM009",
+            "event": "ON",
+            "date_complete": "2025-06-27 20:40:16"
+        },
+        {
+            "id_event": 557,
+            "id_appareil": "CAM004",
+            "event": "OFF",
+            "date_complete": "2025-06-27 21:09:16"
+        },
+        {
+            "id_event": 558,
+            "id_appareil": "CAM005",
+            "event": "ON",
+            "date_complete": "2025-06-27 21:31:16"
+        },
+        {
+            "id_event": 559,
+            "id_appareil": "CAM005",
+            "event": "OFF",
+            "date_complete": "2025-06-27 21:38:16"
+        },
+        {
+            "id_event": 560,
+            "id_appareil": "CAM007",
+            "event": "ON",
+            "date_complete": "2025-06-27 21:59:16"
+        },
+        {
+            "id_event": 561,
+            "id_appareil": "CAM010",
+            "event": "ON",
+            "date_complete": "2025-06-27 22:07:16"
+        },
+        {
+            "id_event": 562,
+            "id_appareil": "CAM006",
+            "event": "ON",
+            "date_complete": "2025-06-27 22:21:16"
+        },
+        {
+            "id_event": 563,
+            "id_appareil": "CAM002",
+            "event": "ON",
+            "date_complete": "2025-06-27 22:42:16"
+        },
+        {
+            "id_event": 564,
+            "id_appareil": "CAM006",
+            "event": "OFF",
+            "date_complete": "2025-06-27 22:46:16"
+        },
+        {
+            "id_event": 565,
+            "id_appareil": "CAM006",
+            "event": "ON",
+            "date_complete": "2025-06-27 22:51:16"
+        },
+        {
+            "id_event": 566,
+            "id_appareil": "CAM001",
+            "event": "ON",
+            "date_complete": "2025-06-27 23:02:16"
+        },
+        {
+            "id_event": 567,
+            "id_appareil": "CAM002",
+            "event": "OFF",
+            "date_complete": "2025-06-27 23:21:16"
+        },
+        {
+            "id_event": 568,
+            "id_appareil": "CAM006",
+            "event": "OFF",
+            "date_complete": "2025-06-27 23:34:16"
+        },
+        {
+            "id_event": 569,
+            "id_appareil": "CAM008",
+            "event": "OFF",
+            "date_complete": "2025-06-27 23:57:16"
+        },
+        {
+            "id_event": 570,
+            "id_appareil": "CAM004",
+            "event": "ON",
+            "date_complete": "2025-06-28 16:49:39"
+        },
+        {
+            "id_event": 571,
+            "id_appareil": "CAM004",
+            "event": "OFF",
+            "date_complete": "2025-06-28 19:02:19"
+        },
+        {
+            "id_event": 572,
+            "id_appareil": "CAM002",
+            "event": "ON",
+            "date_complete": "2025-06-28 19:32:19"
+        },
+        {
+            "id_event": 573,
+            "id_appareil": "CAM007",
+            "event": "OFF",
+            "date_complete": "2025-06-28 19:55:19"
+        },
+        {
+            "id_event": 574,
+            "id_appareil": "CAM003",
+            "event": "OFF",
+            "date_complete": "2025-06-28 20:11:19"
+        },
+        {
+            "id_event": 575,
+            "id_appareil": "CAM003",
+            "event": "ON",
+            "date_complete": "2025-06-28 20:13:19"
+        },
+        {
+            "id_event": 576,
+            "id_appareil": "CAM010",
+            "event": "OFF",
+            "date_complete": "2025-06-28 20:34:19"
+        },
+        {
+            "id_event": 577,
+            "id_appareil": "CAM009",
+            "event": "OFF",
+            "date_complete": "2025-06-28 20:45:19"
+        },
+        {
+            "id_event": 578,
+            "id_appareil": "CAM006",
+            "event": "ON",
+            "date_complete": "2025-06-28 20:54:19"
+        },
+        {
+            "id_event": 579,
+            "id_appareil": "CAM001",
+            "event": "OFF",
+            "date_complete": "2025-06-28 21:24:19"
+        },
+        {
+            "id_event": 580,
+            "id_appareil": "CAM007",
+            "event": "ON",
+            "date_complete": "2025-06-28 21:29:19"
+        },
+        {
+            "id_event": 581,
+            "id_appareil": "CAM002",
+            "event": "OFF",
+            "date_complete": "2025-06-28 21:56:19"
+        },
+        {
+            "id_event": 582,
+            "id_appareil": "CAM006",
+            "event": "OFF",
+            "date_complete": "2025-06-28 22:02:19"
+        },
+        {
+            "id_event": 583,
+            "id_appareil": "CAM005",
+            "event": "ON",
+            "date_complete": "2025-06-28 22:30:19"
+        },
+        {
+            "id_event": 584,
+            "id_appareil": "CAM005",
+            "event": "OFF",
+            "date_complete": "2025-06-28 22:54:19"
+        },
+        {
+            "id_event": 585,
+            "id_appareil": "CAM003",
+            "event": "OFF",
+            "date_complete": "2025-06-28 23:18:19"
+        },
+        {
+            "id_event": 586,
+            "id_appareil": "CAM009",
+            "event": "ON",
+            "date_complete": "2025-06-28 23:34:19"
+        },
+        {
+            "id_event": 587,
+            "id_appareil": "CAM010",
+            "event": "ON",
+            "date_complete": "2025-06-29 13:22:53"
+        },
+        {
+            "id_event": 588,
+            "id_appareil": "CAM009",
+            "event": "OFF",
+            "date_complete": "2025-06-29 18:40:51"
+        },
+        {
+            "id_event": 589,
+            "id_appareil": "CAM008",
+            "event": "ON",
+            "date_complete": "2025-06-29 19:04:51"
+        },
+        {
+            "id_event": 590,
+            "id_appareil": "CAM005",
+            "event": "ON",
+            "date_complete": "2025-06-29 19:06:51"
+        },
+        {
+            "id_event": 591,
+            "id_appareil": "CAM008",
+            "event": "OFF",
+            "date_complete": "2025-06-29 19:32:51"
+        },
+        {
+            "id_event": 592,
+            "id_appareil": "CAM003",
+            "event": "ON",
+            "date_complete": "2025-06-29 20:03:51"
+        },
+        {
+            "id_event": 593,
+            "id_appareil": "CAM004",
+            "event": "ON",
+            "date_complete": "2025-06-29 20:10:51"
+        },
+        {
+            "id_event": 594,
+            "id_appareil": "CAM002",
+            "event": "ON",
+            "date_complete": "2025-06-29 20:23:51"
+        },
+        {
+            "id_event": 595,
+            "id_appareil": "CAM005",
+            "event": "OFF",
+            "date_complete": "2025-06-29 20:43:51"
+        },
+        {
+            "id_event": 596,
+            "id_appareil": "CAM006",
+            "event": "ON",
+            "date_complete": "2025-06-29 21:08:51"
+        },
+        {
+            "id_event": 597,
+            "id_appareil": "CAM003",
+            "event": "OFF",
+            "date_complete": "2025-06-29 21:39:51"
+        },
+        {
+            "id_event": 598,
+            "id_appareil": "CAM010",
+            "event": "OFF",
+            "date_complete": "2025-06-29 22:05:51"
+        },
+        {
+            "id_event": 599,
+            "id_appareil": "CAM010",
+            "event": "ON",
+            "date_complete": "2025-06-29 22:07:51"
+        },
+        {
+            "id_event": 600,
+            "id_appareil": "CAM008",
+            "event": "ON",
+            "date_complete": "2025-06-29 22:20:51"
+        },
+        {
+            "id_event": 601,
+            "id_appareil": "CAM002",
+            "event": "OFF",
+            "date_complete": "2025-06-29 22:26:51"
+        },
+        {
+            "id_event": 602,
+            "id_appareil": "CAM002",
+            "event": "ON",
+            "date_complete": "2025-06-29 22:45:51"
+        },
+        {
+            "id_event": 603,
+            "id_appareil": "CAM009",
+            "event": "ON",
+            "date_complete": "2025-06-29 22:53:51"
+        },
+        {
+            "id_event": 604,
+            "id_appareil": "CAM008",
+            "event": "OFF",
+            "date_complete": "2025-06-29 23:21:51"
+        },
+        {
+            "id_event": 605,
+            "id_appareil": "CAM010",
+            "event": "OFF",
+            "date_complete": "2025-06-29 23:39:51"
+        },
+        {
+            "id_event": 606,
+            "id_appareil": "CAM004",
+            "event": "OFF",
+            "date_complete": "2025-06-30 12:36:25"
+        },
+        {
+            "id_event": 607,
+            "id_appareil": "CAM010",
+            "event": "ON",
+            "date_complete": "2025-06-30 12:57:25"
+        },
+        {
+            "id_event": 608,
+            "id_appareil": "CAM008",
+            "event": "ON",
+            "date_complete": "2025-06-30 14:50:29"
+        },
+        {
+            "id_event": 609,
+            "id_appareil": "CAM003",
+            "event": "ON",
+            "date_complete": "2025-06-30 15:20:29"
+        },
+        {
+            "id_event": 610,
+            "id_appareil": "CAM003",
+            "event": "OFF",
+            "date_complete": "2025-06-30 15:39:29"
+        },
+        {
+            "id_event": 611,
+            "id_appareil": "CAM005",
+            "event": "ON",
+            "date_complete": "2025-06-30 15:49:29"
+        },
+        {
+            "id_event": 612,
+            "id_appareil": "CAM010",
+            "event": "OFF",
+            "date_complete": "2025-06-30 16:12:29"
+        },
+        {
+            "id_event": 613,
+            "id_appareil": "CAM002",
+            "event": "OFF",
+            "date_complete": "2025-06-30 16:36:29"
+        },
+        {
+            "id_event": 614,
+            "id_appareil": "CAM010",
+            "event": "ON",
+            "date_complete": "2025-06-30 16:59:29"
+        },
+        {
+            "id_event": 615,
+            "id_appareil": "CAM003",
+            "event": "ON",
+            "date_complete": "2025-06-30 17:18:29"
+        },
+        {
+            "id_event": 616,
+            "id_appareil": "CAM001",
+            "event": "ON",
+            "date_complete": "2025-06-30 17:45:29"
+        },
+        {
+            "id_event": 617,
+            "id_appareil": "CAM005",
+            "event": "OFF",
+            "date_complete": "2025-06-30 18:16:29"
+        },
+        {
+            "id_event": 618,
+            "id_appareil": "CAM007",
+            "event": "OFF",
+            "date_complete": "2025-06-30 18:21:29"
+        },
+        {
+            "id_event": 619,
+            "id_appareil": "CAM008",
+            "event": "OFF",
+            "date_complete": "2025-06-30 18:29:29"
+        },
+        {
+            "id_event": 620,
+            "id_appareil": "CAM005",
+            "event": "ON",
+            "date_complete": "2025-06-30 18:38:29"
+        },
+        {
+            "id_event": 621,
+            "id_appareil": "CAM005",
+            "event": "OFF",
+            "date_complete": "2025-06-30 18:42:29"
+        },
+        {
+            "id_event": 622,
+            "id_appareil": "CAM004",
+            "event": "ON",
+            "date_complete": "2025-06-30 18:52:29"
+        },
+        {
+            "id_event": 623,
+            "id_appareil": "CAM004",
+            "event": "OFF",
+            "date_complete": "2025-06-30 19:07:29"
+        },
+        {
+            "id_event": 624,
+            "id_appareil": "CAM003",
+            "event": "OFF",
+            "date_complete": "2025-06-30 19:30:29"
+        },
+        {
+            "id_event": 625,
+            "id_appareil": "CAM008",
+            "event": "ON",
+            "date_complete": "2025-06-30 19:54:29"
+        },
+        {
+            "id_event": 626,
+            "id_appareil": "CAM005",
+            "event": "ON",
+            "date_complete": "2025-06-30 20:06:29"
+        },
+        {
+            "id_event": 627,
+            "id_appareil": "CAM008",
+            "event": "OFF",
+            "date_complete": "2025-06-30 20:35:29"
+        },
+        {
+            "id_event": 628,
+            "id_appareil": "CAM003",
+            "event": "ON",
+            "date_complete": "2025-06-30 21:01:29"
+        },
+        {
+            "id_event": 629,
+            "id_appareil": "CAM005",
+            "event": "OFF",
+            "date_complete": "2025-06-30 21:28:29"
+        },
+        {
+            "id_event": 630,
+            "id_appareil": "CAM004",
+            "event": "ON",
+            "date_complete": "2025-06-30 21:30:29"
+        },
+        {
+            "id_event": 631,
+            "id_appareil": "CAM004",
+            "event": "OFF",
+            "date_complete": "2025-06-30 21:52:29"
+        },
+        {
+            "id_event": 632,
+            "id_appareil": "CAM003",
+            "event": "OFF",
+            "date_complete": "2025-06-30 22:15:29"
+        },
+        {
+            "id_event": 633,
+            "id_appareil": "CAM009",
+            "event": "OFF",
+            "date_complete": "2025-06-30 22:25:29"
+        },
+        {
+            "id_event": 634,
+            "id_appareil": "CAM004",
+            "event": "ON",
+            "date_complete": "2025-06-30 22:53:29"
+        },
+        {
+            "id_event": 635,
+            "id_appareil": "CAM006",
+            "event": "OFF",
+            "date_complete": "2025-06-30 22:58:29"
+        },
+        {
+            "id_event": 636,
+            "id_appareil": "CAM009",
+            "event": "ON",
+            "date_complete": "2025-06-30 23:06:29"
+        },
+        {
+            "id_event": 637,
+            "id_appareil": "CAM004",
+            "event": "OFF",
+            "date_complete": "2025-06-30 23:36:29"
+        },
+        {
+            "id_event": 638,
+            "id_appareil": "CAM010",
+            "event": "OFF",
+            "date_complete": "2025-06-30 23:54:29"
+        },
+        {
+            "id_event": 639,
+            "id_appareil": "CAM010",
+            "event": "ON",
+            "date_complete": "2025-06-30 23:57:29"
+        },
+        {
+            "id_event": 640,
+            "id_appareil": "CAM008",
+            "event": "ON",
+            "date_complete": "2025-07-01 19:31:14"
+        },
+        {
+            "id_event": 641,
+            "id_appareil": "CAM010",
+            "event": "OFF",
+            "date_complete": "2025-07-01 19:50:14"
+        },
+        {
+            "id_event": 642,
+            "id_appareil": "CAM006",
+            "event": "ON",
+            "date_complete": "2025-07-01 19:52:14"
+        },
+        {
+            "id_event": 643,
+            "id_appareil": "CAM001",
+            "event": "OFF",
+            "date_complete": "2025-07-01 20:20:14"
+        },
+        {
+            "id_event": 644,
+            "id_appareil": "CAM009",
+            "event": "OFF",
+            "date_complete": "2025-07-01 20:27:14"
+        },
+        {
+            "id_event": 645,
+            "id_appareil": "CAM007",
+            "event": "ON",
+            "date_complete": "2025-07-01 20:42:14"
+        },
+        {
+            "id_event": 646,
+            "id_appareil": "CAM001",
+            "event": "ON",
+            "date_complete": "2025-07-01 21:02:14"
+        },
+        {
+            "id_event": 647,
+            "id_appareil": "CAM004",
+            "event": "ON",
+            "date_complete": "2025-07-01 21:04:14"
+        },
+        {
+            "id_event": 648,
+            "id_appareil": "CAM007",
+            "event": "OFF",
+            "date_complete": "2025-07-01 21:20:14"
+        },
+        {
+            "id_event": 649,
+            "id_appareil": "CAM008",
+            "event": "OFF",
+            "date_complete": "2025-07-01 21:35:14"
+        },
+        {
+            "id_event": 650,
+            "id_appareil": "CAM009",
+            "event": "ON",
+            "date_complete": "2025-07-01 21:37:14"
+        },
+        {
+            "id_event": 651,
+            "id_appareil": "CAM002",
+            "event": "ON",
+            "date_complete": "2025-07-01 22:03:14"
+        },
+        {
+            "id_event": 652,
+            "id_appareil": "CAM008",
+            "event": "ON",
+            "date_complete": "2025-07-01 22:20:14"
+        },
+        {
+            "id_event": 653,
+            "id_appareil": "CAM001",
+            "event": "OFF",
+            "date_complete": "2025-07-01 22:48:14"
+        },
+        {
+            "id_event": 654,
+            "id_appareil": "CAM007",
+            "event": "ON",
+            "date_complete": "2025-07-01 22:53:14"
+        },
+        {
+            "id_event": 655,
+            "id_appareil": "CAM006",
+            "event": "OFF",
+            "date_complete": "2025-07-01 23:13:14"
+        },
+        {
+            "id_event": 656,
+            "id_appareil": "CAM003",
+            "event": "ON",
+            "date_complete": "2025-07-01 23:37:14"
+        },
+        {
+            "id_event": 657,
+            "id_appareil": "CAM007",
+            "event": "OFF",
+            "date_complete": "2025-07-01 23:45:14"
+        },
+        {
+            "id_event": 658,
+            "id_appareil": "CAM004",
+            "event": "OFF",
+            "date_complete": "2025-07-01 23:50:14"
+        },
+        {
+            "id_event": 659,
+            "id_appareil": "CAM006",
+            "event": "ON",
+            "date_complete": "2025-07-01 23:55:14"
+        },
+        {
+            "id_event": 660,
+            "id_appareil": "CAM008",
+            "event": "OFF",
+            "date_complete": "2025-07-01 23:57:14"
+        },
+        {
+            "id_event": 661,
+            "id_appareil": "CAM004",
+            "event": "ON",
+            "date_complete": "2025-07-02 19:44:13"
+        },
+        {
+            "id_event": 662,
+            "id_appareil": "CAM007",
+            "event": "ON",
+            "date_complete": "2025-07-02 20:15:13"
+        },
+        {
+            "id_event": 663,
+            "id_appareil": "CAM005",
+            "event": "ON",
+            "date_complete": "2025-07-02 20:25:13"
+        },
+        {
+            "id_event": 664,
+            "id_appareil": "CAM009",
+            "event": "OFF",
+            "date_complete": "2025-07-02 20:30:13"
+        },
+        {
+            "id_event": 665,
+            "id_appareil": "CAM005",
+            "event": "OFF",
+            "date_complete": "2025-07-02 20:52:13"
+        },
+        {
+            "id_event": 666,
+            "id_appareil": "CAM004",
+            "event": "OFF",
+            "date_complete": "2025-07-02 21:22:13"
+        },
+        {
+            "id_event": 667,
+            "id_appareil": "CAM008",
+            "event": "ON",
+            "date_complete": "2025-07-02 21:40:13"
+        },
+        {
+            "id_event": 668,
+            "id_appareil": "CAM008",
+            "event": "OFF",
+            "date_complete": "2025-07-02 21:43:13"
+        },
+        {
+            "id_event": 669,
+            "id_appareil": "CAM009",
+            "event": "ON",
+            "date_complete": "2025-07-02 22:12:13"
+        },
+        {
+            "id_event": 670,
+            "id_appareil": "CAM002",
+            "event": "OFF",
+            "date_complete": "2025-07-02 22:21:13"
+        },
+        {
+            "id_event": 671,
+            "id_appareil": "CAM003",
+            "event": "OFF",
+            "date_complete": "2025-07-02 22:26:13"
+        },
+        {
+            "id_event": 672,
+            "id_appareil": "CAM004",
+            "event": "ON",
+            "date_complete": "2025-07-02 22:35:13"
+        },
+        {
+            "id_event": 673,
+            "id_appareil": "CAM007",
+            "event": "OFF",
+            "date_complete": "2025-07-02 22:57:13"
+        },
+        {
+            "id_event": 674,
+            "id_appareil": "CAM005",
+            "event": "ON",
+            "date_complete": "2025-07-02 23:17:13"
+        },
+        {
+            "id_event": 675,
+            "id_appareil": "CAM009",
+            "event": "OFF",
+            "date_complete": "2025-07-02 23:19:13"
+        },
+        {
+            "id_event": 676,
+            "id_appareil": "CAM002",
+            "event": "ON",
+            "date_complete": "2025-07-02 23:40:13"
+        },
+        {
+            "id_event": 677,
+            "id_appareil": "CAM010",
+            "event": "ON",
+            "date_complete": "2025-07-02 23:47:13"
+        },
+        {
+            "id_event": 678,
+            "id_appareil": "CAM003",
+            "event": "ON",
+            "date_complete": "2025-07-02 23:55:13"
+        },
+        {
+            "id_event": 679,
+            "id_appareil": "CAM009",
+            "event": "ON",
+            "date_complete": "2025-07-03 01:15:47"
+        },
+        {
+            "id_event": 680,
+            "id_appareil": "CAM009",
+            "event": "OFF",
+            "date_complete": "2025-07-03 15:28:17"
+        },
+        {
+            "id_event": 681,
+            "id_appareil": "CAM001",
+            "event": "ON",
+            "date_complete": "2025-07-03 15:30:17"
+        },
+        {
+            "id_event": 682,
+            "id_appareil": "CAM001",
+            "event": "OFF",
+            "date_complete": "2025-07-03 15:46:17"
+        },
+        {
+            "id_event": 683,
+            "id_appareil": "CAM003",
+            "event": "OFF",
+            "date_complete": "2025-07-03 16:02:17"
+        },
+        {
+            "id_event": 684,
+            "id_appareil": "CAM004",
+            "event": "OFF",
+            "date_complete": "2025-07-03 16:26:17"
+        },
+        {
+            "id_event": 685,
+            "id_appareil": "CAM009",
+            "event": "ON",
+            "date_complete": "2025-07-03 16:49:17"
+        },
+        {
+            "id_event": 686,
+            "id_appareil": "CAM009",
+            "event": "OFF",
+            "date_complete": "2025-07-03 16:54:17"
+        },
+        {
+            "id_event": 687,
+            "id_appareil": "CAM006",
+            "event": "OFF",
+            "date_complete": "2025-07-03 17:01:17"
+        },
+        {
+            "id_event": 688,
+            "id_appareil": "CAM002",
+            "event": "OFF",
+            "date_complete": "2025-07-03 17:20:17"
+        },
+        {
+            "id_event": 689,
+            "id_appareil": "CAM004",
+            "event": "ON",
+            "date_complete": "2025-07-03 17:37:17"
+        },
+        {
+            "id_event": 690,
+            "id_appareil": "CAM001",
+            "event": "ON",
+            "date_complete": "2025-07-03 18:07:17"
+        },
+        {
+            "id_event": 691,
+            "id_appareil": "CAM009",
+            "event": "ON",
+            "date_complete": "2025-07-03 18:38:17"
+        },
+        {
+            "id_event": 692,
+            "id_appareil": "CAM001",
+            "event": "OFF",
+            "date_complete": "2025-07-03 18:55:17"
+        },
+        {
+            "id_event": 693,
+            "id_appareil": "CAM005",
+            "event": "OFF",
+            "date_complete": "2025-07-03 19:00:17"
+        },
+        {
+            "id_event": 694,
+            "id_appareil": "CAM003",
+            "event": "ON",
+            "date_complete": "2025-07-03 19:20:17"
+        },
+        {
+            "id_event": 695,
+            "id_appareil": "CAM002",
+            "event": "ON",
+            "date_complete": "2025-07-03 19:32:17"
+        },
+        {
+            "id_event": 696,
+            "id_appareil": "CAM010",
+            "event": "OFF",
+            "date_complete": "2025-07-03 19:55:17"
+        },
+        {
+            "id_event": 697,
+            "id_appareil": "CAM001",
+            "event": "ON",
+            "date_complete": "2025-07-03 20:15:17"
+        },
+        {
+            "id_event": 698,
+            "id_appareil": "CAM002",
+            "event": "OFF",
+            "date_complete": "2025-07-03 20:45:17"
+        },
+        {
+            "id_event": 699,
+            "id_appareil": "CAM003",
+            "event": "OFF",
+            "date_complete": "2025-07-03 21:06:17"
+        },
+        {
+            "id_event": 700,
+            "id_appareil": "CAM006",
+            "event": "ON",
+            "date_complete": "2025-07-03 21:28:17"
+        },
+        {
+            "id_event": 701,
+            "id_appareil": "CAM003",
+            "event": "ON",
+            "date_complete": "2025-07-03 21:40:17"
+        },
+        {
+            "id_event": 702,
+            "id_appareil": "CAM002",
+            "event": "ON",
+            "date_complete": "2025-07-03 21:52:17"
+        },
+        {
+            "id_event": 703,
+            "id_appareil": "CAM005",
+            "event": "ON",
+            "date_complete": "2025-07-03 22:04:17"
+        },
+        {
+            "id_event": 704,
+            "id_appareil": "CAM002",
+            "event": "OFF",
+            "date_complete": "2025-07-03 22:15:17"
+        },
+        {
+            "id_event": 705,
+            "id_appareil": "CAM009",
+            "event": "OFF",
+            "date_complete": "2025-07-03 22:42:17"
+        },
+        {
+            "id_event": 706,
+            "id_appareil": "CAM008",
+            "event": "ON",
+            "date_complete": "2025-07-03 23:03:17"
+        },
+        {
+            "id_event": 707,
+            "id_appareil": "CAM007",
+            "event": "ON",
+            "date_complete": "2025-07-03 23:27:17"
+        },
+        {
+            "id_event": 708,
+            "id_appareil": "CAM002",
+            "event": "ON",
+            "date_complete": "2025-07-03 23:36:17"
+        },
+        {
+            "id_event": 709,
+            "id_appareil": "CAM008",
+            "event": "OFF",
+            "date_complete": "2025-07-03 23:48:17"
+        },
+        {
+            "id_event": 710,
+            "id_appareil": "CAM001",
+            "event": "OFF",
+            "date_complete": "2025-07-04 19:15:36"
+        },
+        {
+            "id_event": 711,
+            "id_appareil": "CAM004",
+            "event": "OFF",
+            "date_complete": "2025-07-04 19:18:36"
+        },
+        {
+            "id_event": 712,
+            "id_appareil": "CAM007",
+            "event": "OFF",
+            "date_complete": "2025-07-04 19:48:36"
+        },
+        {
+            "id_event": 713,
+            "id_appareil": "CAM009",
+            "event": "ON",
+            "date_complete": "2025-07-04 20:11:36"
+        },
+        {
+            "id_event": 714,
+            "id_appareil": "CAM003",
+            "event": "OFF",
+            "date_complete": "2025-07-04 20:18:36"
+        },
+        {
+            "id_event": 715,
+            "id_appareil": "CAM009",
+            "event": "OFF",
+            "date_complete": "2025-07-04 20:22:36"
+        },
+        {
+            "id_event": 716,
+            "id_appareil": "CAM004",
+            "event": "ON",
+            "date_complete": "2025-07-04 20:47:36"
+        },
+        {
+            "id_event": 717,
+            "id_appareil": "CAM002",
+            "event": "OFF",
+            "date_complete": "2025-07-04 21:04:36"
+        },
+        {
+            "id_event": 718,
+            "id_appareil": "CAM006",
+            "event": "OFF",
+            "date_complete": "2025-07-04 21:24:36"
+        },
+        {
+            "id_event": 719,
+            "id_appareil": "CAM008",
+            "event": "ON",
+            "date_complete": "2025-07-04 21:39:36"
+        },
+        {
+            "id_event": 720,
+            "id_appareil": "CAM001",
+            "event": "ON",
+            "date_complete": "2025-07-04 21:58:36"
+        },
+        {
+            "id_event": 721,
+            "id_appareil": "CAM006",
+            "event": "ON",
+            "date_complete": "2025-07-04 22:20:36"
+        },
+        {
+            "id_event": 722,
+            "id_appareil": "CAM004",
+            "event": "OFF",
+            "date_complete": "2025-07-04 22:24:36"
+        },
+        {
+            "id_event": 723,
+            "id_appareil": "CAM007",
+            "event": "ON",
+            "date_complete": "2025-07-04 22:52:36"
+        },
+        {
+            "id_event": 724,
+            "id_appareil": "CAM001",
+            "event": "OFF",
+            "date_complete": "2025-07-04 23:02:36"
+        },
+        {
+            "id_event": 725,
+            "id_appareil": "CAM005",
+            "event": "OFF",
+            "date_complete": "2025-07-04 23:09:36"
+        },
+        {
+            "id_event": 726,
+            "id_appareil": "CAM001",
+            "event": "ON",
+            "date_complete": "2025-07-04 23:35:36"
+        },
+        {
+            "id_event": 727,
+            "id_appareil": "CAM009",
+            "event": "ON",
+            "date_complete": "2025-07-04 23:55:36"
+        },
+        {
+            "id_event": 728,
+            "id_appareil": "CAM008",
+            "event": "OFF",
+            "date_complete": "2025-07-05 12:30:29"
+        },
+        {
+            "id_event": 729,
+            "id_appareil": "CAM006",
+            "event": "OFF",
+            "date_complete": "2025-07-05 18:10:52"
+        },
+        {
+            "id_event": 730,
+            "id_appareil": "CAM005",
+            "event": "ON",
+            "date_complete": "2025-07-05 18:23:52"
+        },
+        {
+            "id_event": 731,
+            "id_appareil": "CAM006",
+            "event": "ON",
+            "date_complete": "2025-07-05 18:40:52"
+        },
+        {
+            "id_event": 732,
+            "id_appareil": "CAM004",
+            "event": "ON",
+            "date_complete": "2025-07-05 18:54:52"
+        },
+        {
+            "id_event": 733,
+            "id_appareil": "CAM002",
+            "event": "ON",
+            "date_complete": "2025-07-05 18:58:52"
+        },
+        {
+            "id_event": 734,
+            "id_appareil": "CAM006",
+            "event": "OFF",
+            "date_complete": "2025-07-05 19:06:52"
+        },
+        {
+            "id_event": 735,
+            "id_appareil": "CAM009",
+            "event": "OFF",
+            "date_complete": "2025-07-05 19:21:52"
+        },
+        {
+            "id_event": 736,
+            "id_appareil": "CAM005",
+            "event": "OFF",
+            "date_complete": "2025-07-05 19:33:52"
+        },
+        {
+            "id_event": 737,
+            "id_appareil": "CAM008",
+            "event": "ON",
+            "date_complete": "2025-07-05 19:47:52"
+        },
+        {
+            "id_event": 738,
+            "id_appareil": "CAM010",
+            "event": "ON",
+            "date_complete": "2025-07-05 20:03:52"
+        },
+        {
+            "id_event": 739,
+            "id_appareil": "CAM009",
+            "event": "ON",
+            "date_complete": "2025-07-05 21:59:10"
+        },
+        {
+            "id_event": 740,
+            "id_appareil": "CAM009",
+            "event": "OFF",
+            "date_complete": "2025-07-05 22:12:10"
+        },
+        {
+            "id_event": 741,
+            "id_appareil": "CAM003",
+            "event": "ON",
+            "date_complete": "2025-07-05 22:28:10"
+        },
+        {
+            "id_event": 742,
+            "id_appareil": "CAM005",
+            "event": "ON",
+            "date_complete": "2025-07-05 22:40:10"
+        },
+        {
+            "id_event": 743,
+            "id_appareil": "CAM006",
+            "event": "ON",
+            "date_complete": "2025-07-05 23:06:10"
+        },
+        {
+            "id_event": 744,
+            "id_appareil": "CAM007",
+            "event": "OFF",
+            "date_complete": "2025-07-05 23:14:10"
+        },
+        {
+            "id_event": 745,
+            "id_appareil": "CAM002",
+            "event": "OFF",
+            "date_complete": "2025-07-05 23:44:10"
+        },
+        {
+            "id_event": 746,
+            "id_appareil": "CAM002",
+            "event": "ON",
+            "date_complete": "2025-07-05 23:49:10"
+        },
+        {
+            "id_event": 747,
+            "id_appareil": "CAM010",
+            "event": "OFF",
+            "date_complete": "2025-07-06 09:33:29"
+        },
+        {
+            "id_event": 748,
+            "id_appareil": "CAM002",
+            "event": "OFF",
+            "date_complete": "2025-07-06 16:30:32"
+        },
+        {
+            "id_event": 749,
+            "id_appareil": "CAM007",
+            "event": "ON",
+            "date_complete": "2025-07-06 16:58:32"
+        },
+        {
+            "id_event": 750,
+            "id_appareil": "CAM002",
+            "event": "ON",
+            "date_complete": "2025-07-06 17:15:32"
+        },
+        {
+            "id_event": 751,
+            "id_appareil": "CAM007",
+            "event": "OFF",
+            "date_complete": "2025-07-06 17:19:32"
+        },
+        {
+            "id_event": 752,
+            "id_appareil": "CAM007",
+            "event": "ON",
+            "date_complete": "2025-07-06 17:38:32"
+        },
+        {
+            "id_event": 753,
+            "id_appareil": "CAM004",
+            "event": "OFF",
+            "date_complete": "2025-07-06 17:56:32"
+        },
+        {
+            "id_event": 754,
+            "id_appareil": "CAM009",
+            "event": "ON",
+            "date_complete": "2025-07-06 17:59:32"
+        },
+        {
+            "id_event": 755,
+            "id_appareil": "CAM003",
+            "event": "OFF",
+            "date_complete": "2025-07-06 18:14:32"
+        },
+        {
+            "id_event": 756,
+            "id_appareil": "CAM006",
+            "event": "OFF",
+            "date_complete": "2025-07-06 18:25:32"
+        },
+        {
+            "id_event": 757,
+            "id_appareil": "CAM002",
+            "event": "OFF",
+            "date_complete": "2025-07-06 18:49:32"
+        },
+        {
+            "id_event": 758,
+            "id_appareil": "CAM005",
+            "event": "OFF",
+            "date_complete": "2025-07-06 19:07:32"
+        },
+        {
+            "id_event": 759,
+            "id_appareil": "CAM001",
+            "event": "OFF",
+            "date_complete": "2025-07-06 19:23:32"
+        },
+        {
+            "id_event": 760,
+            "id_appareil": "CAM009",
+            "event": "OFF",
+            "date_complete": "2025-07-06 19:28:32"
+        },
+        {
+            "id_event": 761,
+            "id_appareil": "CAM006",
+            "event": "ON",
+            "date_complete": "2025-07-06 19:56:32"
+        },
+        {
+            "id_event": 762,
+            "id_appareil": "CAM003",
+            "event": "ON",
+            "date_complete": "2025-07-06 20:11:32"
+        },
+        {
+            "id_event": 763,
+            "id_appareil": "CAM008",
+            "event": "OFF",
+            "date_complete": "2025-07-06 20:20:32"
+        },
+        {
+            "id_event": 764,
+            "id_appareil": "CAM010",
+            "event": "ON",
+            "date_complete": "2025-07-06 20:29:32"
+        },
+        {
+            "id_event": 765,
+            "id_appareil": "CAM002",
+            "event": "ON",
+            "date_complete": "2025-07-06 20:34:32"
+        },
+        {
+            "id_event": 766,
+            "id_appareil": "CAM001",
+            "event": "ON",
+            "date_complete": "2025-07-06 20:48:32"
+        },
+        {
+            "id_event": 767,
+            "id_appareil": "CAM009",
+            "event": "ON",
+            "date_complete": "2025-07-06 21:08:32"
+        },
+        {
+            "id_event": 768,
+            "id_appareil": "CAM003",
+            "event": "OFF",
+            "date_complete": "2025-07-06 21:14:32"
+        },
+        {
+            "id_event": 769,
+            "id_appareil": "CAM010",
+            "event": "OFF",
+            "date_complete": "2025-07-06 21:32:32"
+        },
+        {
+            "id_event": 770,
+            "id_appareil": "CAM003",
+            "event": "ON",
+            "date_complete": "2025-07-06 21:40:32"
+        },
+        {
+            "id_event": 771,
+            "id_appareil": "CAM006",
+            "event": "OFF",
+            "date_complete": "2025-07-06 22:02:32"
+        },
+        {
+            "id_event": 772,
+            "id_appareil": "CAM001",
+            "event": "OFF",
+            "date_complete": "2025-07-06 22:29:32"
+        },
+        {
+            "id_event": 773,
+            "id_appareil": "CAM004",
+            "event": "ON",
+            "date_complete": "2025-07-06 22:44:32"
+        },
+        {
+            "id_event": 774,
+            "id_appareil": "CAM003",
+            "event": "OFF",
+            "date_complete": "2025-07-06 23:14:32"
+        },
+        {
+            "id_event": 775,
+            "id_appareil": "CAM001",
+            "event": "ON",
+            "date_complete": "2025-07-06 23:43:32"
+        },
+        {
+            "id_event": 776,
+            "id_appareil": "CAM001",
+            "event": "OFF",
+            "date_complete": "2025-07-07 10:24:14"
+        },
+        {
+            "id_event": 777,
+            "id_appareil": "CAM004",
+            "event": "OFF",
+            "date_complete": "2025-07-07 16:27:02"
+        },
+        {
+            "id_event": 778,
+            "id_appareil": "CAM001",
+            "event": "ON",
+            "date_complete": "2025-07-07 16:42:02"
+        },
+        {
+            "id_event": 779,
+            "id_appareil": "CAM007",
+            "event": "OFF",
+            "date_complete": "2025-07-07 16:56:02"
+        },
+        {
+            "id_event": 780,
+            "id_appareil": "CAM009",
+            "event": "OFF",
+            "date_complete": "2025-07-07 17:06:02"
+        },
+        {
+            "id_event": 781,
+            "id_appareil": "CAM005",
+            "event": "ON",
+            "date_complete": "2025-07-07 17:12:02"
+        },
+        {
+            "id_event": 782,
+            "id_appareil": "CAM002",
+            "event": "OFF",
+            "date_complete": "2025-07-07 18:18:05"
+        },
+        {
+            "id_event": 783,
+            "id_appareil": "CAM006",
+            "event": "ON",
+            "date_complete": "2025-07-07 18:42:05"
+        },
+        {
+            "id_event": 784,
+            "id_appareil": "CAM009",
+            "event": "ON",
+            "date_complete": "2025-07-07 19:03:05"
+        },
+        {
+            "id_event": 785,
+            "id_appareil": "CAM003",
+            "event": "ON",
+            "date_complete": "2025-07-07 19:22:05"
+        },
+        {
+            "id_event": 786,
+            "id_appareil": "CAM007",
+            "event": "ON",
+            "date_complete": "2025-07-07 19:36:05"
+        },
+        {
+            "id_event": 787,
+            "id_appareil": "CAM007",
+            "event": "OFF",
+            "date_complete": "2025-07-07 19:53:05"
+        },
+        {
+            "id_event": 788,
+            "id_appareil": "CAM005",
+            "event": "OFF",
+            "date_complete": "2025-07-07 20:19:05"
+        },
+        {
+            "id_event": 789,
+            "id_appareil": "CAM003",
+            "event": "OFF",
+            "date_complete": "2025-07-07 20:32:05"
+        },
+        {
+            "id_event": 790,
+            "id_appareil": "CAM010",
+            "event": "ON",
+            "date_complete": "2025-07-07 20:53:05"
+        },
+        {
+            "id_event": 791,
+            "id_appareil": "CAM002",
+            "event": "ON",
+            "date_complete": "2025-07-07 20:55:05"
+        },
+        {
+            "id_event": 792,
+            "id_appareil": "CAM008",
+            "event": "ON",
+            "date_complete": "2025-07-07 21:21:05"
+        },
+        {
+            "id_event": 793,
+            "id_appareil": "CAM002",
+            "event": "OFF",
+            "date_complete": "2025-07-07 21:33:05"
+        },
+        {
+            "id_event": 794,
+            "id_appareil": "CAM006",
+            "event": "OFF",
+            "date_complete": "2025-07-07 21:43:05"
+        },
+        {
+            "id_event": 795,
+            "id_appareil": "CAM005",
+            "event": "ON",
+            "date_complete": "2025-07-07 22:11:05"
+        },
+        {
+            "id_event": 796,
+            "id_appareil": "CAM001",
+            "event": "OFF",
+            "date_complete": "2025-07-07 22:31:05"
+        },
+        {
+            "id_event": 797,
+            "id_appareil": "CAM004",
+            "event": "ON",
+            "date_complete": "2025-07-07 22:59:05"
+        },
+        {
+            "id_event": 798,
+            "id_appareil": "CAM010",
+            "event": "OFF",
+            "date_complete": "2025-07-07 23:02:05"
+        },
+        {
+            "id_event": 799,
+            "id_appareil": "CAM002",
+            "event": "ON",
+            "date_complete": "2025-07-07 23:13:05"
+        },
+        {
+            "id_event": 800,
+            "id_appareil": "CAM004",
+            "event": "OFF",
+            "date_complete": "2025-07-07 23:15:05"
+        },
+        {
+            "id_event": 801,
+            "id_appareil": "CAM006",
+            "event": "ON",
+            "date_complete": "2025-07-07 23:28:05"
+        },
+        {
+            "id_event": 802,
+            "id_appareil": "CAM010",
+            "event": "ON",
+            "date_complete": "2025-07-07 23:42:05"
+        },
+        {
+            "id_event": 803,
+            "id_appareil": "CAM005",
+            "event": "OFF",
+            "date_complete": "2025-07-07 23:48:05"
+        },
+        {
+            "id_event": 804,
+            "id_appareil": "CAM006",
+            "event": "OFF",
+            "date_complete": "2025-07-08 15:37:57"
+        },
+        {
+            "id_event": 805,
+            "id_appareil": "CAM007",
+            "event": "ON",
+            "date_complete": "2025-07-08 15:59:57"
+        },
+        {
+            "id_event": 806,
+            "id_appareil": "CAM010",
+            "event": "OFF",
+            "date_complete": "2025-07-08 16:18:57"
+        },
+        {
+            "id_event": 807,
+            "id_appareil": "CAM003",
+            "event": "ON",
+            "date_complete": "2025-07-08 16:30:57"
+        },
+        {
+            "id_event": 808,
+            "id_appareil": "CAM003",
+            "event": "OFF",
+            "date_complete": "2025-07-08 19:54:14"
+        },
+        {
+            "id_event": 809,
+            "id_appareil": "CAM009",
+            "event": "OFF",
+            "date_complete": "2025-07-08 20:04:14"
+        },
+        {
+            "id_event": 810,
+            "id_appareil": "CAM001",
+            "event": "ON",
+            "date_complete": "2025-07-08 20:20:14"
+        },
+        {
+            "id_event": 811,
+            "id_appareil": "CAM002",
+            "event": "OFF",
+            "date_complete": "2025-07-08 20:51:14"
+        },
+        {
+            "id_event": 812,
+            "id_appareil": "CAM008",
+            "event": "OFF",
+            "date_complete": "2025-07-08 21:06:14"
+        },
+        {
+            "id_event": 813,
+            "id_appareil": "CAM002",
+            "event": "ON",
+            "date_complete": "2025-07-08 21:13:14"
+        },
+        {
+            "id_event": 814,
+            "id_appareil": "CAM008",
+            "event": "ON",
+            "date_complete": "2025-07-08 21:18:14"
+        },
+        {
+            "id_event": 815,
+            "id_appareil": "CAM004",
+            "event": "ON",
+            "date_complete": "2025-07-08 21:49:14"
+        },
+        {
+            "id_event": 816,
+            "id_appareil": "CAM005",
+            "event": "ON",
+            "date_complete": "2025-07-08 22:02:14"
+        },
+        {
+            "id_event": 817,
+            "id_appareil": "CAM008",
+            "event": "OFF",
+            "date_complete": "2025-07-08 22:30:14"
+        },
+        {
+            "id_event": 818,
+            "id_appareil": "CAM005",
+            "event": "OFF",
+            "date_complete": "2025-07-08 22:41:14"
+        },
+        {
+            "id_event": 819,
+            "id_appareil": "CAM008",
+            "event": "ON",
+            "date_complete": "2025-07-08 23:08:14"
+        },
+        {
+            "id_event": 820,
+            "id_appareil": "CAM010",
+            "event": "ON",
+            "date_complete": "2025-07-08 23:37:14"
+        },
+        {
+            "id_event": 821,
+            "id_appareil": "CAM006",
+            "event": "ON",
+            "date_complete": "2025-07-08 23:42:14"
+        },
+        {
+            "id_event": 822,
+            "id_appareil": "CAM001",
+            "event": "OFF",
+            "date_complete": "2025-07-08 23:45:14"
+        },
+        {
+            "id_event": 823,
+            "id_appareil": "CAM010",
+            "event": "OFF",
+            "date_complete": "2025-07-09 00:00:14"
+        },
+        {
+            "id_event": 824,
+            "id_appareil": "CAM009",
+            "event": "ON",
+            "date_complete": "2025-07-09 17:47:51"
+        },
+        {
+            "id_event": 825,
+            "id_appareil": "CAM006",
+            "event": "OFF",
+            "date_complete": "2025-07-09 18:12:51"
+        },
+        {
+            "id_event": 826,
+            "id_appareil": "CAM009",
+            "event": "OFF",
+            "date_complete": "2025-07-09 18:54:03"
+        },
+        {
+            "id_event": 827,
+            "id_appareil": "CAM006",
+            "event": "ON",
+            "date_complete": "2025-07-09 19:23:03"
+        },
+        {
+            "id_event": 828,
+            "id_appareil": "CAM006",
+            "event": "OFF",
+            "date_complete": "2025-07-09 19:41:03"
+        },
+        {
+            "id_event": 829,
+            "id_appareil": "CAM009",
+            "event": "ON",
+            "date_complete": "2025-07-09 20:02:03"
+        },
+        {
+            "id_event": 830,
+            "id_appareil": "CAM010",
+            "event": "ON",
+            "date_complete": "2025-07-09 20:17:03"
+        },
+        {
+            "id_event": 831,
+            "id_appareil": "CAM002",
+            "event": "OFF",
+            "date_complete": "2025-07-09 20:26:03"
+        },
+        {
+            "id_event": 832,
+            "id_appareil": "CAM002",
+            "event": "ON",
+            "date_complete": "2025-07-09 20:55:03"
+        },
+        {
+            "id_event": 833,
+            "id_appareil": "CAM004",
+            "event": "OFF",
+            "date_complete": "2025-07-09 21:25:03"
+        },
+        {
+            "id_event": 834,
+            "id_appareil": "CAM007",
+            "event": "OFF",
+            "date_complete": "2025-07-09 21:34:03"
+        },
+        {
+            "id_event": 835,
+            "id_appareil": "CAM005",
+            "event": "ON",
+            "date_complete": "2025-07-09 21:54:03"
+        },
+        {
+            "id_event": 836,
+            "id_appareil": "CAM007",
+            "event": "ON",
+            "date_complete": "2025-07-09 22:19:03"
+        },
+        {
+            "id_event": 837,
+            "id_appareil": "CAM003",
+            "event": "ON",
+            "date_complete": "2025-07-09 22:41:03"
+        },
+        {
+            "id_event": 838,
+            "id_appareil": "CAM002",
+            "event": "OFF",
+            "date_complete": "2025-07-09 23:05:03"
+        },
+        {
+            "id_event": 839,
+            "id_appareil": "CAM010",
+            "event": "OFF",
+            "date_complete": "2025-07-09 23:08:03"
+        },
+        {
+            "id_event": 840,
+            "id_appareil": "CAM001",
+            "event": "ON",
+            "date_complete": "2025-07-09 23:26:03"
+        },
+        {
+            "id_event": 841,
+            "id_appareil": "CAM004",
+            "event": "ON",
+            "date_complete": "2025-07-09 23:54:03"
+        },
+        {
+            "id_event": 842,
+            "id_appareil": "CAM005",
+            "event": "OFF",
+            "date_complete": "2025-07-10 14:54:46"
+        },
+        {
+            "id_event": 843,
+            "id_appareil": "CAM003",
+            "event": "OFF",
+            "date_complete": "2025-07-10 15:15:46"
+        },
+        {
+            "id_event": 844,
+            "id_appareil": "CAM007",
+            "event": "OFF",
+            "date_complete": "2025-07-10 15:46:46"
+        },
+        {
+            "id_event": 845,
+            "id_appareil": "CAM009",
+            "event": "OFF",
+            "date_complete": "2025-07-10 15:57:46"
+        },
+        {
+            "id_event": 846,
+            "id_appareil": "CAM010",
+            "event": "ON",
+            "date_complete": "2025-07-10 18:01:12"
+        },
+        {
+            "id_event": 847,
+            "id_appareil": "CAM009",
+            "event": "ON",
+            "date_complete": "2025-07-10 18:28:12"
+        },
+        {
+            "id_event": 848,
+            "id_appareil": "CAM004",
+            "event": "OFF",
+            "date_complete": "2025-07-10 18:40:12"
+        },
+        {
+            "id_event": 849,
+            "id_appareil": "CAM004",
+            "event": "ON",
+            "date_complete": "2025-07-10 18:53:12"
+        },
+        {
+            "id_event": 850,
+            "id_appareil": "CAM007",
+            "event": "ON",
+            "date_complete": "2025-07-10 19:18:12"
+        },
+        {
+            "id_event": 851,
+            "id_appareil": "CAM002",
+            "event": "ON",
+            "date_complete": "2025-07-10 19:43:12"
+        },
+        {
+            "id_event": 852,
+            "id_appareil": "CAM002",
+            "event": "OFF",
+            "date_complete": "2025-07-10 19:59:12"
+        },
+        {
+            "id_event": 853,
+            "id_appareil": "CAM001",
+            "event": "OFF",
+            "date_complete": "2025-07-10 20:02:12"
+        },
+        {
+            "id_event": 854,
+            "id_appareil": "CAM006",
+            "event": "ON",
+            "date_complete": "2025-07-10 20:08:12"
+        },
+        {
+            "id_event": 855,
+            "id_appareil": "CAM009",
+            "event": "OFF",
+            "date_complete": "2025-07-10 20:19:12"
+        },
+        {
+            "id_event": 856,
+            "id_appareil": "CAM007",
+            "event": "OFF",
+            "date_complete": "2025-07-10 20:47:12"
+        },
+        {
+            "id_event": 857,
+            "id_appareil": "CAM010",
+            "event": "OFF",
+            "date_complete": "2025-07-10 20:51:12"
+        },
+        {
+            "id_event": 858,
+            "id_appareil": "CAM005",
+            "event": "ON",
+            "date_complete": "2025-07-10 21:01:12"
+        },
+        {
+            "id_event": 859,
+            "id_appareil": "CAM007",
+            "event": "ON",
+            "date_complete": "2025-07-10 21:06:12"
+        },
+        {
+            "id_event": 860,
+            "id_appareil": "CAM001",
+            "event": "ON",
+            "date_complete": "2025-07-10 21:33:12"
+        },
+        {
+            "id_event": 861,
+            "id_appareil": "CAM003",
+            "event": "ON",
+            "date_complete": "2025-07-10 22:02:12"
+        },
+        {
+            "id_event": 862,
+            "id_appareil": "CAM009",
+            "event": "ON",
+            "date_complete": "2025-07-10 22:27:12"
+        },
+        {
+            "id_event": 863,
+            "id_appareil": "CAM006",
+            "event": "OFF",
+            "date_complete": "2025-07-10 22:39:12"
+        },
+        {
+            "id_event": 864,
+            "id_appareil": "CAM007",
+            "event": "OFF",
+            "date_complete": "2025-07-10 22:47:12"
+        },
+        {
+            "id_event": 865,
+            "id_appareil": "CAM004",
+            "event": "OFF",
+            "date_complete": "2025-07-10 23:16:12"
+        },
+        {
+            "id_event": 866,
+            "id_appareil": "CAM001",
+            "event": "OFF",
+            "date_complete": "2025-07-10 23:31:12"
+        },
+        {
+            "id_event": 867,
+            "id_appareil": "CAM008",
+            "event": "OFF",
+            "date_complete": "2025-07-10 23:55:12"
+        },
+        {
+            "id_event": 868,
+            "id_appareil": "CAM010",
+            "event": "ON",
+            "date_complete": "2025-07-11 18:29:43"
+        },
+        {
+            "id_event": 869,
+            "id_appareil": "CAM002",
+            "event": "ON",
+            "date_complete": "2025-07-11 18:51:43"
+        },
+        {
+            "id_event": 870,
+            "id_appareil": "CAM004",
+            "event": "ON",
+            "date_complete": "2025-07-11 19:06:43"
+        },
+        {
+            "id_event": 871,
+            "id_appareil": "CAM002",
+            "event": "OFF",
+            "date_complete": "2025-07-11 19:32:43"
+        },
+        {
+            "id_event": 872,
+            "id_appareil": "CAM002",
+            "event": "ON",
+            "date_complete": "2025-07-11 19:57:43"
+        },
+        {
+            "id_event": 873,
+            "id_appareil": "CAM004",
+            "event": "OFF",
+            "date_complete": "2025-07-11 20:28:43"
+        },
+        {
+            "id_event": 874,
+            "id_appareil": "CAM008",
+            "event": "ON",
+            "date_complete": "2025-07-11 20:48:43"
+        },
+        {
+            "id_event": 875,
+            "id_appareil": "CAM006",
+            "event": "ON",
+            "date_complete": "2025-07-11 21:01:43"
+        },
+        {
+            "id_event": 876,
+            "id_appareil": "CAM001",
+            "event": "ON",
+            "date_complete": "2025-07-11 21:15:43"
+        },
+        {
+            "id_event": 877,
+            "id_appareil": "CAM010",
+            "event": "OFF",
+            "date_complete": "2025-07-11 21:42:43"
+        },
+        {
+            "id_event": 878,
+            "id_appareil": "CAM010",
+            "event": "ON",
+            "date_complete": "2025-07-11 22:05:43"
+        },
+        {
+            "id_event": 879,
+            "id_appareil": "CAM004",
+            "event": "ON",
+            "date_complete": "2025-07-11 22:28:43"
+        },
+        {
+            "id_event": 880,
+            "id_appareil": "CAM010",
+            "event": "OFF",
+            "date_complete": "2025-07-11 22:49:43"
+        },
+        {
+            "id_event": 881,
+            "id_appareil": "CAM005",
+            "event": "OFF",
+            "date_complete": "2025-07-11 22:52:43"
+        },
+        {
+            "id_event": 882,
+            "id_appareil": "CAM007",
+            "event": "ON",
+            "date_complete": "2025-07-11 23:03:43"
+        },
+        {
+            "id_event": 883,
+            "id_appareil": "CAM008",
+            "event": "OFF",
+            "date_complete": "2025-07-11 23:20:43"
+        },
+        {
+            "id_event": 884,
+            "id_appareil": "CAM010",
+            "event": "ON",
+            "date_complete": "2025-07-11 23:26:43"
+        },
+        {
+            "id_event": 885,
+            "id_appareil": "CAM010",
+            "event": "OFF",
+            "date_complete": "2025-07-11 23:29:43"
+        },
+        {
+            "id_event": 886,
+            "id_appareil": "CAM004",
+            "event": "OFF",
+            "date_complete": "2025-07-11 23:46:43"
+        },
+        {
+            "id_event": 887,
+            "id_appareil": "CAM008",
+            "event": "ON",
+            "date_complete": "2025-07-11 23:48:43"
+        },
+        {
+            "id_event": 888,
+            "id_appareil": "CAM006",
+            "event": "OFF",
+            "date_complete": "2025-07-11 23:59:43"
+        },
+        {
+            "id_event": 889,
+            "id_appareil": "CAM002",
+            "event": "OFF",
+            "date_complete": "2025-07-12 19:57:38"
+        },
+        {
+            "id_event": 890,
+            "id_appareil": "CAM010",
+            "event": "ON",
+            "date_complete": "2025-07-12 20:19:38"
+        },
+        {
+            "id_event": 891,
+            "id_appareil": "CAM005",
+            "event": "ON",
+            "date_complete": "2025-07-12 20:30:38"
+        },
+        {
+            "id_event": 892,
+            "id_appareil": "CAM010",
+            "event": "OFF",
+            "date_complete": "2025-07-12 20:38:38"
+        },
+        {
+            "id_event": 893,
+            "id_appareil": "CAM002",
+            "event": "ON",
+            "date_complete": "2025-07-12 20:50:38"
+        },
+        {
+            "id_event": 894,
+            "id_appareil": "CAM008",
+            "event": "OFF",
+            "date_complete": "2025-07-12 21:09:38"
+        },
+        {
+            "id_event": 895,
+            "id_appareil": "CAM001",
+            "event": "OFF",
+            "date_complete": "2025-07-12 21:35:38"
+        },
+        {
+            "id_event": 896,
+            "id_appareil": "CAM003",
+            "event": "OFF",
+            "date_complete": "2025-07-12 21:49:38"
+        },
+        {
+            "id_event": 897,
+            "id_appareil": "CAM006",
+            "event": "ON",
+            "date_complete": "2025-07-12 22:02:38"
+        },
+        {
+            "id_event": 898,
+            "id_appareil": "CAM001",
+            "event": "ON",
+            "date_complete": "2025-07-12 22:08:38"
+        },
+        {
+            "id_event": 899,
+            "id_appareil": "CAM008",
+            "event": "ON",
+            "date_complete": "2025-07-12 22:25:38"
+        },
+        {
+            "id_event": 900,
+            "id_appareil": "CAM005",
+            "event": "OFF",
+            "date_complete": "2025-07-12 22:29:38"
+        },
+        {
+            "id_event": 901,
+            "id_appareil": "CAM005",
+            "event": "ON",
+            "date_complete": "2025-07-12 22:40:38"
+        },
+        {
+            "id_event": 902,
+            "id_appareil": "CAM009",
+            "event": "OFF",
+            "date_complete": "2025-07-12 22:48:38"
+        },
+        {
+            "id_event": 903,
+            "id_appareil": "CAM008",
+            "event": "OFF",
+            "date_complete": "2025-07-12 22:54:38"
+        },
+        {
+            "id_event": 904,
+            "id_appareil": "CAM003",
+            "event": "ON",
+            "date_complete": "2025-07-12 23:22:38"
+        },
+        {
+            "id_event": 905,
+            "id_appareil": "CAM004",
+            "event": "ON",
+            "date_complete": "2025-07-12 23:42:38"
+        },
+        {
+            "id_event": 906,
+            "id_appareil": "CAM006",
+            "event": "OFF",
+            "date_complete": "2025-07-13 00:00:38"
+        },
+        {
+            "id_event": 907,
+            "id_appareil": "CAM007",
+            "event": "OFF",
+            "date_complete": "2025-07-13 14:14:28"
+        },
+        {
+            "id_event": 908,
+            "id_appareil": "CAM005",
+            "event": "OFF",
+            "date_complete": "2025-07-13 14:17:28"
+        },
+        {
+            "id_event": 909,
+            "id_appareil": "CAM007",
+            "event": "ON",
+            "date_complete": "2025-07-13 14:43:28"
+        },
+        {
+            "id_event": 910,
+            "id_appareil": "CAM003",
+            "event": "OFF",
+            "date_complete": "2025-07-13 14:54:28"
+        },
+        {
+            "id_event": 911,
+            "id_appareil": "CAM003",
+            "event": "ON",
+            "date_complete": "2025-07-13 15:05:28"
+        },
+        {
+            "id_event": 912,
+            "id_appareil": "CAM010",
+            "event": "ON",
+            "date_complete": "2025-07-13 15:15:28"
+        },
+        {
+            "id_event": 913,
+            "id_appareil": "CAM006",
+            "event": "ON",
+            "date_complete": "2025-07-13 15:22:28"
+        },
+        {
+            "id_event": 914,
+            "id_appareil": "CAM009",
+            "event": "ON",
+            "date_complete": "2025-07-13 15:46:28"
+        },
+        {
+            "id_event": 915,
+            "id_appareil": "CAM005",
+            "event": "ON",
+            "date_complete": "2025-07-13 15:58:28"
+        },
+        {
+            "id_event": 916,
+            "id_appareil": "CAM001",
+            "event": "OFF",
+            "date_complete": "2025-07-13 18:26:23"
+        },
+        {
+            "id_event": 917,
+            "id_appareil": "CAM003",
+            "event": "OFF",
+            "date_complete": "2025-07-13 18:48:23"
+        },
+        {
+            "id_event": 918,
+            "id_appareil": "CAM003",
+            "event": "ON",
+            "date_complete": "2025-07-13 19:13:23"
+        },
+        {
+            "id_event": 919,
+            "id_appareil": "CAM008",
+            "event": "ON",
+            "date_complete": "2025-07-13 19:40:23"
+        },
+        {
+            "id_event": 920,
+            "id_appareil": "CAM004",
+            "event": "OFF",
+            "date_complete": "2025-07-13 19:56:23"
+        },
+        {
+            "id_event": 921,
+            "id_appareil": "CAM005",
+            "event": "OFF",
+            "date_complete": "2025-07-13 20:13:23"
+        },
+        {
+            "id_event": 922,
+            "id_appareil": "CAM007",
+            "event": "OFF",
+            "date_complete": "2025-07-13 20:27:23"
+        },
+        {
+            "id_event": 923,
+            "id_appareil": "CAM003",
+            "event": "OFF",
+            "date_complete": "2025-07-13 20:38:23"
+        },
+        {
+            "id_event": 924,
+            "id_appareil": "CAM002",
+            "event": "OFF",
+            "date_complete": "2025-07-13 21:04:23"
+        },
+        {
+            "id_event": 925,
+            "id_appareil": "CAM004",
+            "event": "ON",
+            "date_complete": "2025-07-13 21:24:23"
+        },
+        {
+            "id_event": 926,
+            "id_appareil": "CAM010",
+            "event": "OFF",
+            "date_complete": "2025-07-13 21:39:23"
+        },
+        {
+            "id_event": 927,
+            "id_appareil": "CAM005",
+            "event": "ON",
+            "date_complete": "2025-07-13 21:51:23"
+        },
+        {
+            "id_event": 928,
+            "id_appareil": "CAM005",
+            "event": "OFF",
+            "date_complete": "2025-07-13 22:08:23"
+        },
+        {
+            "id_event": 929,
+            "id_appareil": "CAM003",
+            "event": "ON",
+            "date_complete": "2025-07-13 22:33:23"
+        },
+        {
+            "id_event": 930,
+            "id_appareil": "CAM007",
+            "event": "ON",
+            "date_complete": "2025-07-13 22:40:23"
+        },
+        {
+            "id_event": 931,
+            "id_appareil": "CAM010",
+            "event": "ON",
+            "date_complete": "2025-07-13 22:52:23"
+        },
+        {
+            "id_event": 932,
+            "id_appareil": "CAM002",
+            "event": "ON",
+            "date_complete": "2025-07-13 23:08:23"
+        },
+        {
+            "id_event": 933,
+            "id_appareil": "CAM007",
+            "event": "OFF",
+            "date_complete": "2025-07-13 23:33:23"
+        },
+        {
+            "id_event": 934,
+            "id_appareil": "CAM002",
+            "event": "OFF",
+            "date_complete": "2025-07-13 23:51:23"
+        },
+        {
+            "id_event": 935,
+            "id_appareil": "CAM007",
+            "event": "ON",
+            "date_complete": "2025-07-14 16:34:01"
+        },
+        {
+            "id_event": 936,
+            "id_appareil": "CAM002",
+            "event": "ON",
+            "date_complete": "2025-07-14 16:55:01"
+        },
+        {
+            "id_event": 937,
+            "id_appareil": "CAM003",
+            "event": "OFF",
+            "date_complete": "2025-07-14 17:23:01"
+        },
+        {
+            "id_event": 938,
+            "id_appareil": "CAM006",
+            "event": "OFF",
+            "date_complete": "2025-07-14 17:43:01"
+        },
+        {
+            "id_event": 939,
+            "id_appareil": "CAM010",
+            "event": "OFF",
+            "date_complete": "2025-07-14 17:55:01"
+        },
+        {
+            "id_event": 940,
+            "id_appareil": "CAM005",
+            "event": "ON",
+            "date_complete": "2025-07-14 18:18:01"
+        },
+        {
+            "id_event": 941,
+            "id_appareil": "CAM007",
+            "event": "OFF",
+            "date_complete": "2025-07-14 23:39:21"
+        },
+        {
+            "id_event": 942,
+            "id_appareil": "CAM002",
+            "event": "OFF",
+            "date_complete": "2025-07-15 09:39:51"
+        },
+        {
+            "id_event": 943,
+            "id_appareil": "CAM005",
+            "event": "OFF",
+            "date_complete": "2025-07-15 18:37:55"
+        },
+        {
+            "id_event": 944,
+            "id_appareil": "CAM005",
+            "event": "ON",
+            "date_complete": "2025-07-15 19:02:55"
+        },
+        {
+            "id_event": 945,
+            "id_appareil": "CAM005",
+            "event": "OFF",
+            "date_complete": "2025-07-15 19:26:55"
+        },
+        {
+            "id_event": 946,
+            "id_appareil": "CAM001",
+            "event": "ON",
+            "date_complete": "2025-07-15 19:34:55"
+        },
+        {
+            "id_event": 947,
+            "id_appareil": "CAM010",
+            "event": "ON",
+            "date_complete": "2025-07-15 19:43:55"
+        },
+        {
+            "id_event": 948,
+            "id_appareil": "CAM001",
+            "event": "OFF",
+            "date_complete": "2025-07-15 19:53:55"
+        },
+        {
+            "id_event": 949,
+            "id_appareil": "CAM005",
+            "event": "ON",
+            "date_complete": "2025-07-15 20:16:55"
+        },
+        {
+            "id_event": 950,
+            "id_appareil": "CAM010",
+            "event": "OFF",
+            "date_complete": "2025-07-15 20:47:55"
+        },
+        {
+            "id_event": 951,
+            "id_appareil": "CAM009",
+            "event": "OFF",
+            "date_complete": "2025-07-15 20:56:55"
+        },
+        {
+            "id_event": 952,
+            "id_appareil": "CAM008",
+            "event": "OFF",
+            "date_complete": "2025-07-15 21:21:55"
+        },
+        {
+            "id_event": 953,
+            "id_appareil": "CAM008",
+            "event": "ON",
+            "date_complete": "2025-07-15 21:23:55"
+        },
+        {
+            "id_event": 954,
+            "id_appareil": "CAM007",
+            "event": "ON",
+            "date_complete": "2025-07-15 21:31:55"
+        },
+        {
+            "id_event": 955,
+            "id_appareil": "CAM006",
+            "event": "ON",
+            "date_complete": "2025-07-15 21:39:55"
+        },
+        {
+            "id_event": 956,
+            "id_appareil": "CAM006",
+            "event": "OFF",
+            "date_complete": "2025-07-15 22:05:55"
+        },
+        {
+            "id_event": 957,
+            "id_appareil": "CAM007",
+            "event": "OFF",
+            "date_complete": "2025-07-15 22:30:55"
+        },
+        {
+            "id_event": 958,
+            "id_appareil": "CAM010",
+            "event": "ON",
+            "date_complete": "2025-07-15 23:00:55"
+        },
+        {
+            "id_event": 959,
+            "id_appareil": "CAM010",
+            "event": "OFF",
+            "date_complete": "2025-07-15 23:27:55"
+        },
+        {
+            "id_event": 960,
+            "id_appareil": "CAM003",
+            "event": "ON",
+            "date_complete": "2025-07-15 23:54:55"
+        },
+        {
+            "id_event": 961,
+            "id_appareil": "CAM006",
+            "event": "ON",
+            "date_complete": "2025-07-16 13:39:37"
+        },
+        {
+            "id_event": 962,
+            "id_appareil": "CAM010",
+            "event": "ON",
+            "date_complete": "2025-07-16 13:45:37"
+        },
+        {
+            "id_event": 963,
+            "id_appareil": "CAM010",
+            "event": "OFF",
+            "date_complete": "2025-07-16 14:10:37"
+        },
+        {
+            "id_event": 964,
+            "id_appareil": "CAM009",
+            "event": "ON",
+            "date_complete": "2025-07-16 14:20:52"
+        },
+        {
+            "id_event": 965,
+            "id_appareil": "CAM007",
+            "event": "ON",
+            "date_complete": "2025-07-16 18:50:34"
+        },
+        {
+            "id_event": 966,
+            "id_appareil": "CAM008",
+            "event": "OFF",
+            "date_complete": "2025-07-16 18:52:34"
+        },
+        {
+            "id_event": 967,
+            "id_appareil": "CAM003",
+            "event": "OFF",
+            "date_complete": "2025-07-16 19:20:34"
+        },
+        {
+            "id_event": 968,
+            "id_appareil": "CAM001",
+            "event": "ON",
+            "date_complete": "2025-07-16 19:37:34"
+        },
+        {
+            "id_event": 969,
+            "id_appareil": "CAM003",
+            "event": "ON",
+            "date_complete": "2025-07-16 20:00:34"
+        },
+        {
+            "id_event": 970,
+            "id_appareil": "CAM008",
+            "event": "ON",
+            "date_complete": "2025-07-16 20:26:34"
+        },
+        {
+            "id_event": 971,
+            "id_appareil": "CAM010",
+            "event": "ON",
+            "date_complete": "2025-07-16 20:28:34"
+        },
+        {
+            "id_event": 972,
+            "id_appareil": "CAM005",
+            "event": "OFF",
+            "date_complete": "2025-07-16 20:38:34"
+        },
+        {
+            "id_event": 973,
+            "id_appareil": "CAM010",
+            "event": "OFF",
+            "date_complete": "2025-07-16 20:48:34"
+        },
+        {
+            "id_event": 974,
+            "id_appareil": "CAM009",
+            "event": "OFF",
+            "date_complete": "2025-07-16 21:04:34"
+        },
+        {
+            "id_event": 975,
+            "id_appareil": "CAM004",
+            "event": "OFF",
+            "date_complete": "2025-07-16 21:35:34"
+        },
+        {
+            "id_event": 976,
+            "id_appareil": "CAM005",
+            "event": "ON",
+            "date_complete": "2025-07-16 22:03:34"
+        },
+        {
+            "id_event": 977,
+            "id_appareil": "CAM004",
+            "event": "ON",
+            "date_complete": "2025-07-16 22:30:34"
+        },
+        {
+            "id_event": 978,
+            "id_appareil": "CAM001",
+            "event": "OFF",
+            "date_complete": "2025-07-16 22:42:34"
+        },
+        {
+            "id_event": 979,
+            "id_appareil": "CAM009",
+            "event": "ON",
+            "date_complete": "2025-07-16 22:55:34"
+        },
+        {
+            "id_event": 980,
+            "id_appareil": "CAM003",
+            "event": "OFF",
+            "date_complete": "2025-07-16 23:07:34"
+        },
+        {
+            "id_event": 981,
+            "id_appareil": "CAM002",
+            "event": "ON",
+            "date_complete": "2025-07-16 23:19:34"
+        },
+        {
+            "id_event": 982,
+            "id_appareil": "CAM007",
+            "event": "OFF",
+            "date_complete": "2025-07-16 23:49:34"
+        },
+        {
+            "id_event": 983,
+            "id_appareil": "CAM005",
+            "event": "OFF",
+            "date_complete": "2025-07-17 15:52:21"
+        },
+        {
+            "id_event": 984,
+            "id_appareil": "CAM005",
+            "event": "ON",
+            "date_complete": "2025-07-17 16:20:21"
+        },
+        {
+            "id_event": 985,
+            "id_appareil": "CAM003",
+            "event": "ON",
+            "date_complete": "2025-07-17 18:37:39"
+        },
+        {
+            "id_event": 986,
+            "id_appareil": "CAM010",
+            "event": "ON",
+            "date_complete": "2025-07-17 19:02:08"
+        },
+        {
+            "id_event": 987,
+            "id_appareil": "CAM006",
+            "event": "OFF",
+            "date_complete": "2025-07-17 19:26:08"
+        },
+        {
+            "id_event": 988,
+            "id_appareil": "CAM009",
+            "event": "OFF",
+            "date_complete": "2025-07-17 19:49:08"
+        },
+        {
+            "id_event": 989,
+            "id_appareil": "CAM001",
+            "event": "ON",
+            "date_complete": "2025-07-17 20:11:08"
+        },
+        {
+            "id_event": 990,
+            "id_appareil": "CAM005",
+            "event": "OFF",
+            "date_complete": "2025-07-17 20:14:08"
+        },
+        {
+            "id_event": 991,
+            "id_appareil": "CAM009",
+            "event": "ON",
+            "date_complete": "2025-07-17 20:45:08"
+        },
+        {
+            "id_event": 992,
+            "id_appareil": "CAM001",
+            "event": "OFF",
+            "date_complete": "2025-07-17 20:51:08"
+        },
+        {
+            "id_event": 993,
+            "id_appareil": "CAM001",
+            "event": "ON",
+            "date_complete": "2025-07-17 20:55:08"
+        },
+        {
+            "id_event": 994,
+            "id_appareil": "CAM008",
+            "event": "OFF",
+            "date_complete": "2025-07-17 21:11:08"
+        },
+        {
+            "id_event": 995,
+            "id_appareil": "CAM010",
+            "event": "OFF",
+            "date_complete": "2025-07-17 21:21:08"
+        },
+        {
+            "id_event": 996,
+            "id_appareil": "CAM005",
+            "event": "ON",
+            "date_complete": "2025-07-17 21:40:08"
+        },
+        {
+            "id_event": 997,
+            "id_appareil": "CAM003",
+            "event": "OFF",
+            "date_complete": "2025-07-17 21:45:08"
+        },
+        {
+            "id_event": 998,
+            "id_appareil": "CAM005",
+            "event": "OFF",
+            "date_complete": "2025-07-17 21:58:08"
+        },
+        {
+            "id_event": 999,
+            "id_appareil": "CAM008",
+            "event": "ON",
+            "date_complete": "2025-07-17 22:14:08"
+        },
+        {
+            "id_event": 1000,
+            "id_appareil": "CAM003",
+            "event": "ON",
+            "date_complete": "2025-07-17 22:18:08"
+        }
+    ]
+}
