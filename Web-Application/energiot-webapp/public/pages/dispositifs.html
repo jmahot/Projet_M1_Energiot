@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <title>Dispositifs</title>
+  <link rel="stylesheet" href="../../styles/styles.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Quicksand&display=swap" rel="stylesheet" />
+</head>
+<body>
+  <header>
+    <div class="logo">ENERGIOT <span>for Smart Building</span></div>
+    <nav>
+      <ul>
+        <li><a href="dashboard.html">Tableau de bord</a></li>
+        <li><a href="dispositifs.html">Dispositifs</a></li>
+        <li><a href="reports.html">Rapports</a></li>
+        <li><a href="../index.html" onclick="localStorage.clear()">Changer d'entreprise</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section class="page-header">
+      <h1>Liste des dispositifs</h1>
+      <p>Entreprise sélectionnée : <strong><span id="entreprise-name">Chargement...</span></strong></p>
+    </section>
+
+    <section id="appareils-container" class="dispositif-grid">
+      <!-- Cartes des dispositifs générées ici -->
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Energiot. Tous droits réservés.</p>
+  </footer>
+
+  <script>
+    const entrepriseId = localStorage.getItem("selectedEntreprise");
+    const entrepriseNom = localStorage.getItem("selectedEntrepriseNom");
+
+    if (!entrepriseId) {
+      alert("Veuillez d'abord sélectionner une entreprise.");
+      window.location.href = "../index.html";
+      throw new Error("Entreprise non sélectionnée");
+    }
+
+    document.getElementById("entreprise-name").textContent = entrepriseNom || "Nom non disponible";
+
+    fetch("../../data/database_energiot_v3.json")
+      .then(response => response.json())
+      .then(data => {
+        const { appareils, localisations, events } = data;
+
+        const appareilsFiltrés = appareils.filter(appareil => {
+          const loc = localisations.find(l => l.id_localisation === appareil.id_localisation);
+          return loc && loc.id_entreprise == entrepriseId;
+        });
+
+        const container = document.getElementById("appareils-container");
+
+        if (appareilsFiltrés.length === 0) {
+          container.innerHTML = "<p>Aucun dispositif trouvé pour cette entreprise.</p>";
+          return;
+        }
+
+        container.innerHTML = appareilsFiltrés.map(appareil => {
+          const loc = localisations.find(l => l.id_localisation === appareil.id_localisation);
+          const appareilEvents = events.filter(e => e.id_appareil === appareil.id_appareil);
+          const lastEvent = appareilEvents[appareilEvents.length - 1];
+          const onCount = appareilEvents.filter(e => e.event === "ON").length;
+
+          return `
+            <article class="dispositif-card">
+              <h3>🛠️ ${appareil.id_appareil}</h3>
+              <p><strong>Salle :</strong> ${loc ? loc.numero_salle : "Inconnue"} (${loc ? loc.type_salle : "N/A"})</p>
+              <p><strong>Dernier événement :</strong> 
+                <span class="${lastEvent && lastEvent.event === 'ON' ? 'status-on' : 'status-off'}">
+                  ${lastEvent ? lastEvent.event : "Aucun"}
+                </span>
+              </p>
+              <p><strong>Total ON :</strong> ${onCount}</p>
+              <a href="dispositif-profile.html?id=${appareil.id_appareil}" class="btn-link">Voir profil</a>
+            </article>
+          `;
+        }).join("");
+      })
+      .catch(err => {
+        console.error("Erreur chargement données :", err);
+        document.getElementById("appareils-container").innerHTML = "<p>Erreur lors du chargement des dispositifs.</p>";
+      });
+  </script>
+</body>
+</html>

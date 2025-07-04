@@ -1,45 +1,58 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
 <head>
   <meta charset="UTF-8" />
-  <title>Energiot | Presentation Mode</title>
+  <title>Energiot | Mode Présentation</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <link rel="stylesheet" href="../styles/styles.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  <link href="https://fonts.googleapis.com/css2?family=Quicksand&display=swap" rel="stylesheet" />
 </head>
 <body>
-  <div class="presentation-container">
-    <!-- Dev side -->
+  <header>
+    <div class="logo">ENERGIOT <span>for Smart Building</span></div>
+    <nav>
+      <ul>
+        <li><a href="#"><i class="fas fa-user-shield"></i> Mode Démo</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main class="presentation-container">
+    <!-- Côté développeur -->
     <div class="presentation-panel dev-panel">
-      <h1 class="panel-header">Dev Control Panel (Demo Only)</h1>
-      <p style="margin-bottom:1rem;">Select an entreprise for testing purposes:</p>
+      <h1 class="panel-header"><i class="fas fa-code"></i> Panneau de Contrôle Développeur</h1>
+      <p style="margin-bottom:1rem;">Sélectionnez une entreprise (version développeur) :</p>
       <div id="entreprise-selection" class="entreprise-selection"></div>
     </div>
 
-    <!-- Client side -->
+    <!-- Côté client -->
     <div class="presentation-panel client-panel">
-    <h1 class="panel-header">Client Dashboard Preview</h1>
+      <h1 class="panel-header"><i class="fas fa-tv"></i> Aperçu du Tableau de Bord Client</h1>
 
-    <div id="login-section" class="login-section">
-        <h2>Client Login</h2>
+      <div id="login-section" class="login-section">
+        <h2><i class="fas fa-sign-in-alt"></i> Connexion Client</h2>
         <form id="login-form">
-        <label for="username">Username:</label><br />
-        <input type="text" id="username" name="username" required /><br />
-        <label for="password">Password:</label><br />
-        <input type="password" id="password" name="password" required /><br />
-        <button type="submit">Login</button>
+          <label for="username">Nom d'utilisateur :</label>
+          <input type="text" id="username" name="username" required />
+          <label for="password">Mot de passe :</label>
+          <input type="password" id="password" name="password" required />
+          <button type="submit"><i class="fas fa-unlock-alt"></i> Connexion</button>
         </form>
-        <p id="login-error" style="color: red; display:none;">Invalid credentials, try again.</p>
+        <p id="login-error" style="color: #d93025; display:none;">Mot de passe invalide, réessayez.</p>
+      </div>
+
+      <div id="client-preview" class="client-preview" style="display:none;">
+        <h2>Bienvenue sur Energiot Smart Lighting</h2>
+        <p>Ce tableau de bord permet de visualiser l’optimisation énergétique, suivre les économies en temps réel, et gérer les dispositifs connectés intelligents.</p>
+        <button id="logout-btn" class="back-button">Déconnexion</button>
+      </div>
     </div>
+  </main>
 
-
-    <div id="client-preview" style="display:none;">
-    <h2>Welcome to Energiot Smart Lighting</h2>
-    <p>This is the dashboard your enterprise would access to monitor lighting optimization, real-time savings, and manage smart camera devices.</p>
-    <button id="logout-btn">Déconnexion</button>
-    </div>
-
-    </div>
-
-  </div>
+  <footer>
+    <p>&copy; 2025 Energiot. Tous droits réservés.</p>
+  </footer>
 
   <script src="../scripts/selection.js"></script>
   <script src="../scripts/login.js"></script>
