@@ -14,7 +14,7 @@
         <li><a href="dashboard.html">Tableau de bord</a></li>
         <li><a href="dispositifs.html">Dispositifs</a></li>
         <li><a href="reports.html">Rapports</a></li>
-        <li><a href="../index.html" onclick="localStorage.clear()">Changer d'entreprise</a></li>
+        <li><a href="../../index.html" onclick="localStorage.clear()">Changer d'entreprise</a></li>
       </ul>
     </nav>
   </header>
@@ -40,7 +40,7 @@
 
     if (!entrepriseId) {
       alert("Veuillez d'abord sélectionner une entreprise.");
-      window.location.href = "../index.html";
+      window.location.href = "../../index.html";
       throw new Error("Entreprise non sélectionnée");
     }
 
