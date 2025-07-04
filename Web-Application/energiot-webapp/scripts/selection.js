@@ -1,4 +1,4 @@
-fetch("../data/database_energiot_v3.json")
+fetch("data/database_energiot_v3.json")
   .then(response => response.json())
   .then(data => {
     const entreprises = data.entreprises;
@@ -23,5 +23,5 @@ fetch("../data/database_energiot_v3.json")
 function selectEntreprise(id, nom) {
   localStorage.setItem("selectedEntreprise", id);
   localStorage.setItem("selectedEntrepriseNom", nom);
-  window.location.href = "./pages/dashboard.html";
+  window.location.href = "./public/pages/dashboard.html";
 }
